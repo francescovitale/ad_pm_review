@@ -1,0 +1,453 @@
+TY  - JOUR
+TI  - Proactive conformance checking: An approach for predicting deviations in business processes
+AU  - Grohs, M.
+AU  - Pfeiffer, P.
+AU  - Rehse, J.-R.
+T2  - Information Systems
+DA  - 2025///
+PY  - 2025
+DO  - 10.1016/j.is.2024.102461
+VL  - 127
+UR  - https://www.scopus.com/pages/publications/85205679693?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Detecting deviating behaviors without models
+AU  - Lu, X.
+AU  - Fahland, D.
+AU  - van den Biggelaar, F.J.H.M.
+AU  - van der Aalst, W.M.P.
+T2  - Lecture Notes in Business Information Processing
+DA  - 2016///
+PY  - 2016
+DO  - 10.1007/978-3-319-42887-1_11
+VL  - 256
+SP  - 126
+EP  - 139
+UR  - https://www.scopus.com/pages/publications/84979583917?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Subgraph Mining for Anomalous Pattern Discovery in Event Logs
+AU  - Genga, Laura
+AU  - Potena, Domenico
+AU  - Martino, Orazio
+AU  - Alizadeh, Mahdi
+AU  - Diamantini, Claudia
+AU  - Zannone, Nicola
+A2  - Appice, Annalisa
+A2  - Ceci, Michelangelo
+A2  - Loglisci, Corrado
+A2  - Masciari, Elio
+A2  - Raś, Zbigniew W.
+AB  - Conformance checking allows organizations to verify whether their IT system complies with the prescribed behavior by comparing process executions recorded by the IT system against a process model (representing the normative behavior). However, most of the existing techniques are only able to identify low-level deviations, which provide a scarce support to investigate what actually happened when a process execution deviates from the specification. In this work, we introduce an approach to extract recurrent deviations from historical logging data and generate anomalous patterns representing high-level deviations. These patterns provide analysts with a valuable aid for investigating nonconforming behaviors; moreover, they can be exploited to detect high-level deviations during conformance checking. To identify anomalous behaviors from historical logging data, we apply frequent subgraph mining techniques together with an ad-hoc conformance checking technique. Anomalous patterns are then derived by applying frequent items algorithms to determine highly-correlated deviations, among which ordering relations are inferred. The approach has been validated by means of a set of experiments.
+C1  - Cham
+C3  - New Frontiers in Mining Complex Patterns
+DA  - 2017///
+PY  - 2017
+DO  - 10.1007/978-3-319-61461-8_12
+DP  - Springer Link
+SP  - 181
+EP  - 197
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-319-61461-8
+ER  - 
+
+TY  - JOUR
+TI  - Detecting flight trajectory anomalies and predicting diversions in freight transportation
+AU  - Di Ciccio, Claudio
+AU  - van der Aa, Han
+AU  - Cabanillas, Cristina
+AU  - Mendling, Jan
+AU  - Prescher, Johannes
+T2  - Decision Support Systems
+AB  - Timely identifying flight diversions is a crucial aspect of efficient multi-modal transportation. When an airplane diverts, logistics providers must promptly adapt their transportation plans in order to ensure proper delivery despite such an unexpected event. In practice, the different parties in a logistics chain do not exchange real-time information related to flights. This calls for a means to detect diversions that just requires publicly available data, thus being independent of the communication between different parties. The dependence on public data results in a challenge to detect anomalous behavior without knowing the planned flight trajectory. Our work addresses this challenge by introducing a prediction model that just requires information on an airplane's position, velocity, and intended destination. This information is used to distinguish between regular and anomalous behavior. When an airplane displays anomalous behavior for an extended period of time, the model predicts a diversion. A quantitative evaluation shows that this approach is able to detect diverting airplanes with excellent precision and recall even without knowing planned trajectories as required by related research. By utilizing the proposed prediction model, logistics companies gain a significant amount of response time for these cases.
+DA  - 2016/08/01/
+PY  - 2016
+DO  - 10.1016/j.dss.2016.05.004
+DP  - ScienceDirect
+VL  - 88
+SP  - 1
+EP  - 17
+J2  - Decision Support Systems
+SN  - 0167-9236
+UR  - https://www.sciencedirect.com/science/article/pii/S016792361630077X
+Y2  - 2026/10/31/08:40:03
+L2  - https://www.sciencedirect.com/science/article/pii/S016792361630077X
+KW  - Machine learning
+KW  - Logistics
+KW  - Prediction methods
+KW  - Air transportation
+KW  - Aircraft navigation
+KW  - Airplane trajectory
+ER  - 
+
+TY  - CONF
+TI  - Detecting Anomalous Programmable Logic Controller Events Using Process Mining
+AU  - Yau, Ken
+AU  - Chow, Kam-Pui
+AU  - Yiu, Siu-Ming
+A2  - Staggs, Jason
+A2  - Shenoi, Sujeet
+AB  - Programmable logic controllers that monitor and control industrial processes are attractive targets for cyber attackers. Although techniques and tools have been developed for detecting anomalous programmable logic controller behavior, they rely heavily on knowledge of the complex programmable logic controller control programs that perform process monitoring and control. To address this limitation, this chapter describes an automated process mining methodology that relies on event logs comprising programmable logic controller inputs and outputs. The methodology discovers a process model of normal programmable logic controller behavior, which is used to detect anomalous behavior and support forensic investigations. Experiments involving a popular Siemens SIMATIC S7-1212C programmable logic controller and a simulated traffic light system demonstrate the utility and effectiveness of the methodology.
+C1  - Cham
+C3  - Critical Infrastructure Protection XV
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-030-93511-5_6
+DP  - Springer Link
+SP  - 119
+EP  - 133
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-93511-5
+KW  - anomaly detection
+KW  - process mining
+KW  - Programmable logic controller
+ER  - 
+
+TY  - JOUR
+TI  - Novel approach for industrial process anomaly detection based on process mining
+AU  - Shi, Yilin
+AU  - Zhang, Ning
+AU  - Song, Xiaolu
+AU  - Li, Hongguang
+AU  - Zhu, Qunxiong
+T2  - Journal of Process Control
+AB  - Anomaly detection plays a critical role in ensuring the quality and safety of industrial processes. Process mining, as an emerging technology, has proven effective in extracting knowledge and process rules inherent in process events. However, industrial time series data possess characteristics such as high noise, and data redundancy, posing challenges for accurately assessing system anomalies using traditional data-driven methods. To address these challenges, this paper proposes a Trend-Value Fusion Process Mining (TVPM) approach based on the representation of industrial process events to tackle anomaly detection in industrial processes. Firstly, TVPM introduces a fusion measure that combines data trends and mean-value to provide a comprehensive description of operating events in industrial processes. This fusion measure serves as a vital tool for capturing the complex details and features of industrial events. Additionally, a novel process discovery algorithm is developed to extract behavioral patterns and sequence information from events. Finally, a process abnormal state detection model is constructed by leveraging the comprehensive and in-depth information obtained from TVPM. The proposed method is applied to an industrial coal gasification process, yielding satisfactory results.
+DA  - 2024/04/01/
+PY  - 2024
+DO  - 10.1016/j.jprocont.2024.103165
+DP  - ScienceDirect
+VL  - 136
+SP  - 103165
+J2  - Journal of Process Control
+SN  - 0959-1524
+UR  - https://www.sciencedirect.com/science/article/pii/S0959152424000052
+Y2  - 2026/10/31/08:29:25
+L2  - https://www.sciencedirect.com/science/article/pii/S0959152424000052
+KW  - Anomaly detection
+KW  - Process mining
+KW  - Time series analysis
+KW  - Industrial process operating events
+ER  - 
+
+TY  - JOUR
+TI  - Algorithms for anomaly detection of traces in logs of process aware information systems
+AU  - Bezerra, Fábio
+AU  - Wainer, Jacques
+T2  - Information Systems
+AB  - This paper discusses four algorithms for detecting anomalies in logs of process aware systems. One of the algorithms only marks as potential anomalies traces that are infrequent in the log. The other three algorithms: threshold, iterative and sampling are based on mining a process model from the log, or a subset of it. The algorithms were evaluated on a set of 1500 artificial logs, with different profiles on the number of anomalous traces and the number of times each anomalous traces was present in the log. The sampling algorithm proved to be the most effective solution. We also applied the algorithm to a real log, and compared the resulting detected anomalous traces with the ones detected by a different procedure that relies on manual choices.
+DA  - 2013/03/01/
+PY  - 2013
+DO  - 10.1016/j.is.2012.04.004
+DP  - ScienceDirect
+VL  - 38
+IS  - 1
+SP  - 33
+EP  - 44
+J2  - Information Systems
+SN  - 0306-4379
+UR  - https://www.sciencedirect.com/science/article/pii/S0306437912000567
+Y2  - 2026/10/31/08:30:04
+L2  - https://www.sciencedirect.com/science/article/pii/S0306437912000567
+KW  - Anomaly detection
+KW  - Process mining
+KW  - Process-aware systems
+ER  - 
+
+TY  - CONF
+TI  - Exploring the Application of Process Mining Techniques to Improve Web Application Security
+AU  - Bruno, Marcelo
+AU  - Ibañez, Pablo
+AU  - Techera, Tamara
+AU  - Calegari, Daniel
+AU  - Betarte, Gustavo
+T2  - 2021 XLVII Latin American Computing Conference (CLEI)
+AB  - Web applications are permanently being exposed to attacks that exploit their vulnerabilities. To detect and prevent misuse of the functionality provided by an application, it has become necessary to develop techniques that help discern between a valid user of the system and a malicious agent. In recent years, a technology that has been widely deployed to provide automated and non-invasive support for detecting web application attacks is Web Application Firewalls. In this work, we put forward and discuss the application of Process Mining techniques to detect deviations from the expected behavior of web applications. The objects of behavior analysis are logs generated by a widely deployed WAF called ModSecurity. We discuss experiments we have carried out applying our mining method on the well-known e-commerce platform Magento and using the ProM tool for the execution of the process mining techniques.
+C3  - 2021 XLVII Latin American Computing Conference (CLEI)
+DA  - 2021/10//
+PY  - 2021
+DO  - 10.1109/CLEI53233.2021.9640192
+DP  - IEEE Xplore
+SP  - 1
+EP  - 10
+UR  - https://ieeexplore.ieee.org/document/9640192
+Y2  - 2026/10/31/08:30:34
+KW  - process mining
+KW  - PROM
+KW  - Security
+KW  - Electronic commerce
+KW  - ProM
+KW  - Application security
+KW  - Firewalls (computing)
+KW  - ModSecurity
+KW  - web application firewall
+KW  - web applications
+ER  - 
+
+TY  - JOUR
+TI  - A Process Mining-based unsupervised Anomaly Detection technique for the Industrial Internet of Things
+AU  - Vitale, Francesco
+AU  - De Vita, Fabrizio
+AU  - Mazzocca, Nicola
+AU  - Bruneo, Dario
+T2  - Internet of Things
+AB  - Industrial Internet of Things (IIoT) applications in Industry 4.0 collect and process Time Series (TS) originating from heterogeneous sources. Many data-driven techniques have been proposed over the years for unsupervised collective Anomaly Detection (AD) to detect anomalous TS and improve quality of service. These techniques build statistical and/or behavioral models through data-driven algorithms often based on machine and deep learning. However, these algorithms may have black-box behavior, may require too much computational effort, and may not be trustworthy. In order to address these challenges, this paper proposes and evaluates an unsupervised AD technique that pre-processes noisy and complex TS and detects anomalous patterns. Pre-processing handles TS complexity through Feature Extraction and Dimensionality Reduction based on Autoencoders (AEs), whereas anomalous patterns are classified through Process Mining (PM), which unsupervisedly captures TS patterns and compares unknown behavior to such patterns for collective AD. We apply the technique to a scale replica of an assembly plant adopted in a smart automotive factory to evaluate our technique with respect to several configurations to analyze their impact on both detection and timing performance. Our contribution improves and extends the existing state-of-the-art work in the literature regarding the application of PM to IIoT for collective AD in TS. Moreover, it compares the obtained results with a baseline approach based on AEs.
+DA  - 2023/12/01/
+PY  - 2023
+DO  - 10.1016/j.iot.2023.100993
+DP  - ScienceDirect
+VL  - 24
+SP  - 100993
+J2  - Internet of Things
+SN  - 2542-6605
+UR  - https://www.sciencedirect.com/science/article/pii/S2542660523003165
+Y2  - 2026/10/31/08:30:58
+L2  - https://www.sciencedirect.com/science/article/pii/S2542660523003165
+KW  - Conformance checking
+KW  - Process discovery
+KW  - Feature extraction
+KW  - Dimensionality reduction
+KW  - Collective Anomaly Detection
+KW  - Time series
+ER  - 
+
+TY  - CONF
+TI  - MADDC: Multi-Scale Anomaly Detection, Diagnosis and Correction for Discrete Event Logs
+AU  - Wang, Xiaolei
+AU  - Yang, Lin
+AU  - Li, Dongyang
+AU  - Ma, Linru
+AU  - He, Yongzhong
+AU  - Xiao, Junchao
+AU  - Liu, Jiyuan
+AU  - Yang, Yuexiang
+T3  - ACSAC '22
+AB  - Anomaly detection for discrete event logs can provide critical information for building secure and reliable systems in various application domains, such as large scale data centers, autonomous driving, and intrusion detection. However, the task is very challenging due to the lack of a clear understanding and definition of anomaly in the specific problem space, and the log data is often highly complex with temporal correlation. Existing deep learning based methods mostly suffer from such issues as overfitting, uncertainty or low interpretability; consequently, the detection results may be inaccurate, with little information to help security analysts diagnose the reported anomalies with high confidence. To tackle this challenge, in this research, we propose a general framework named MADDC, which aims to (1) accurately perform Multi-scale Anomaly Detection, Diagnosis and Correction for discrete event logs, and (2) help analysts further mitigate anomalies based on diagnosis results. Specifically, we first design a new anomaly critic for LSTM variational autoencoder based model to alleviate overfitting and reduce false negatives during anomaly detection. As one of our main contributions, we then introduce process mining technique to build process-centric workflow models in an unsupervised manner, which forms the ‘normal’ context of an event sequence and help perform accurate and consistent anomaly diagnosis through global sequence alignment. Experiments on publicly available datasets show that MADDC not only outperformed several representative methods in terms of detection accuracy, but also could improve the visibility to abnormal deviations from normal execution, hence helping security analysts understand anomalies and make further corrections.
+C1  - New York, NY, USA
+C3  - Proceedings of the 38th Annual Computer Security Applications Conference
+DA  - 2022/12/05/
+PY  - 2022
+DO  - 10.1145/3564625.3567972
+DP  - ACM Digital Library
+SP  - 769
+EP  - 784
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-9759-9
+ST  - MADDC
+UR  - https://dl.acm.org/doi/10.1145/3564625.3567972
+Y2  - 2026/10/31/
+KW  - Deep Learning
+KW  - Anomaly Detection
+KW  - Anomaly Diagnosis
+KW  - Discrete Event Log
+ER  - 
+
+TY  - JOUR
+TI  - Detecting anomalous patterns in process executions
+AU  - Gamallo-Fernández, Pedro
+AU  - Cabodevila, Alexandre
+AU  - Vidal, Juan Carlos
+AU  - Lama, Manuel
+T2  - Computing
+AB  - The detection of anomalies in process executions is crucial for the accurate analysis of organizational processes. In recent years, deep learning models, particularly reconstruction-based approaches, have emerged as the dominant technique for this task, identifying a trace as anomalous if its reconstruction error exceeds a set threshold. However, the existing approaches may result in suboptimal detection accuracy in some real-world scenarios where trace lengths vary and anomalies differ in nature. To address this drawback, this paper presents a novel approach for anomaly detection in processes based on two hypotheses: (h1) analyzing execution patterns on a set of events is more effective than examining the entire trace, and (h2) identifying anomalies in the specific execution contexts of each activity improves accuracy compared to using the same parameters for entire traces. This approach applies a sliding window and a conditional variational autoencoder to segment the trace and examine the execution context of each activity, defining individual thresholds for each. The results obtained on 32 real event logs, with different anomaly configurations, demonstrate that the proposed approach consistently improves the state of the art, validating both hypotheses and providing a robust and generalizable solution for anomaly detection in process executions.
+DA  - 2026/01/03/
+PY  - 2026
+DO  - 10.1007/s00607-025-01604-x
+DP  - Springer Link
+VL  - 108
+IS  - 1
+SP  - 19
+J2  - Computing
+LA  - en
+SN  - 1436-5057
+UR  - https://doi.org/10.1007/s00607-025-01604-x
+Y2  - 2026/10/31/08:34:45
+KW  - Anomaly detection
+KW  - Process mining
+KW  - Deep learning
+KW  - 68T07
+KW  - Conditional variational autoencoder
+ER  - 
+
+TY  - JOUR
+TI  - A framework for detecting deviations in complex event logs
+AU  - Li, Guangming
+AU  - van der Aalst, Wil M.P.
+T2  - Intelligent Data Analysis
+AB  - Deviating behavior within an organization can lead to unexpected results. The effects of deviations are often negative, but sometimes also positive. Therefore, it is useful to detect deviations from event logs which record all the behavior of the organization. However, existing model-based and cluster-based approaches are inaccurate or slow when dealing with complex event logs, i.e. logs of less structured processes having many activities and many possible paths. This paper proposes a novel approach that is faster than cluster-based approaches because it creates a so-called profile which is less time-consuming than creating clusters. Furthermore, the approach is also more accurate than model-based approaches because we use an iterative approach to improve the result. Our experiments show that approach outperforms existing techniques in a variety of circumstances.
+DA  - 2017/01/01/
+PY  - 2017
+DO  - 10.3233/IDA-160044
+DP  - ACM Digital Library
+VL  - 21
+IS  - 4
+SP  - 759
+EP  - 779
+J2  - Intell. Data Anal.
+SN  - 1088-467X
+UR  - https://doi.org/10.3233/IDA-160044
+Y2  - 2026/10/31/08:35:54
+KW  - Process mining
+KW  - clustering
+KW  - deviation detection
+KW  - behavioral profiles
+ER  - 
+
+TY  - CONF
+TI  - Log File Anomaly Detection Based on Process Mining Graphs
+AU  - Luftensteiner, Sabrina
+AU  - Praher, Patrick
+A2  - Kotsis, Gabriele
+A2  - Tjoa, A. Min
+A2  - Khalil, Ismail
+A2  - Moser, Bernhard
+A2  - Taudes, Alfred
+A2  - Mashkoor, Atif
+A2  - Sametinger, Johannes
+A2  - Martinez-Gil, Jorge
+A2  - Sobieczky, Florian
+A2  - Fischer, Lukas
+A2  - Ramler, Rudolf
+A2  - Khan, Maqbool
+A2  - Czech, Gerald
+AB  - In process industry, it is quite common that manufacturing machines repeat a certain order of process steps consistently. These process steps are often declared in programs and have a linear workflow. During the production process, logs are generated for monitoring and further analysis, where not only production steps but also incidents and other deviations are logged. As the manual monitoring of such processes is quite time consuming and tedious, the demand for automatic anomaly and deviation detection is rising. A potential approach is the usage of Process Mining, whereat not all requirements are met. In this paper, we propose a new approach based on spectral gap analysis for the detection of anomalies in log files using the adjacency matrix generated by Process Mining techniques. Furthermore, the experiments section covers their application on a linear process and non-linear processes with deviating paths.
+C1  - Cham
+C3  - Database and Expert Systems Applications - DEXA 2022 Workshops
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-14343-4_36
+DP  - Springer Link
+SP  - 383
+EP  - 391
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-031-14343-4
+KW  - Anomaly detection
+KW  - Process mining
+KW  - Log files
+ER  - 
+
+TY  - JOUR
+TI  - An automated unsupervised anomaly detection framework for DCS controller logs in nuclear power plants
+AU  - Cai, Jiajun
+AU  - Zheng, Sheng
+AU  - Zhang, Caike
+AU  - Dai, Xinyu
+AU  - Ye, Xiaozhou
+AU  - Li, Xiaolong
+T2  - Nuclear Engineering and Design
+AB  - Digital Control Systems (DCS) are pivotal in ensuring nuclear power plant safety by providing real-time monitoring and precise control, with their controllers serving as the critical backbone for reliable operation and fault mitigation. Despite the critical importance of controllers, their operational logs remain an underexploited resource for anomaly detection in nuclear power plant DCS, where current manual-dominated approaches are not only time-consuming but also inefficient. To address this challenge, this study develops an automated unsupervised anomaly detection framework for DCS controller logs. Our approach is composed of three key stages: log parsing, feature engineering, and anomaly detection. In the log parsing stage, raw logs are processed to extract structured information; in feature engineering, logs are grouped by device and events are counted within fixed time windows to build informative feature representations; finally, anomalies are detected by modeling the normal behavior with Principal Component Analysis (PCA) and identifying significant projection errors in the PCA subspace. The framework is validated on a real-world DCS controller log dataset from a nuclear power plant that was manually annotated. Experimental results demonstrate the framework’s effectiveness in accurately detecting abnormal events, reinforcing its potential for enhancing safety in nuclear DCS applications.
+DA  - 2026/01/01/
+PY  - 2026
+DO  - 10.1016/j.nucengdes.2025.114567
+DP  - ScienceDirect
+VL  - 446
+SP  - 114567
+J2  - Nuclear Engineering and Design
+SN  - 0029-5493
+UR  - https://www.sciencedirect.com/science/article/pii/S0029549325007447
+Y2  - 2026/10/31/08:37:04
+L2  - https://www.sciencedirect.com/science/article/pii/S0029549325007447
+KW  - Anomaly detection
+KW  - DCS
+KW  - Feature engineering
+KW  - Log-text analysis
+KW  - Nuclear power plants
+ER  - 
+
+TY  - CONF
+TI  - Dynamic syslog mining for network failure monitoring
+AU  - Yamanishi, Kenji
+AU  - Maruyama, Yuko
+T3  - KDD '05
+AB  - Syslog monitoring technologies have recently received vast attentions in the areas of network management and network monitoring. They are used to address a wide range of important issues including network failure symptom detection and event correlation discovery. Syslogs are intrinsically dynamic in the sense that they form a time series and that their behavior may change over time. This paper proposes a new methodology of dynamic syslog mining in order to detect failure symptoms with higher confidence and to discover sequential alarm patterns among computer devices. The key ideas of dynamic syslog mining are 1) to represent syslog behavior using a mixture of Hidden Markov Models, 2) to adaptively learn the model using an on-line discounting learning algorithm in combination with dynamic selection of the optimal number of mixture components, and 3) to give anomaly scores using universal test statistics with a dynamically optimized threshold. Using real syslog data we demonstrate the validity of our methodology in the scenarios of failure symptom detection, emerging pattern identification, and correlation discovery.
+C1  - New York, NY, USA
+C3  - Proceedings of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining
+DA  - 2005/08/21/
+PY  - 2005
+DO  - 10.1145/1081870.1081927
+DP  - ACM Digital Library
+SP  - 499
+EP  - 508
+PB  - Association for Computing Machinery
+SN  - 978-1-59593-135-1
+UR  - https://dl.acm.org/doi/10.1145/1081870.1081927
+Y2  - 2026/10/31/
+KW  - correlation analysis
+KW  - failure detection
+KW  - model selection
+KW  - probabilistic modeling
+KW  - syslog mining
+ER  - 
+
+TY  - JOUR
+TI  - Process Mining for Digital Twin Development of Industrial Cyber-Physical Systems
+AU  - Vitale, Francesco
+AU  - Guarino, Simone
+AU  - Flammini, Francesco
+AU  - Faramondi, Luca
+AU  - Mazzocca, Nicola
+AU  - Setola, Roberto
+T2  - IEEE Transactions on Industrial Informatics
+AB  - Digital twin development of industrial cyber-physical systems requires modeling, simulation, and monitoring to provide accurate digital replicas mimicking system dynamics. To this aim, modern solutions employ data-driven approaches to capture normal system dynamics using historical data, and anomaly detection using run-time data. However, these approaches are typically process-agnostic and have limited explainability, which negatively impacts trustworthiness. Hence, we propose a novel framework for the digital twin development of industrial cyber-physical systems based on process mining, which connects data-driven and process-based analyses. The framework implements an offline phase that systematically identifies the most suitable process model to capture normal dynamics and simulates faulty dynamics for what-if analysis. The subsequent online phase involves run-time monitoring for anomaly detection. We develop a proof-of-concept application of the framework addressing a water distribution case study that allows physical fault injection. Results highlight the importance of adopting high-quality process models to significantly improve anomaly detection and time performance.
+DA  - 2025/01//
+PY  - 2025
+DO  - 10.1109/TII.2024.3465600
+DP  - IEEE Xplore
+VL  - 21
+IS  - 1
+SP  - 866
+EP  - 875
+SN  - 1941-0050
+UR  - https://ieeexplore.ieee.org/document/10716255
+Y2  - 2026/10/31/08:38:13
+KW  - Anomaly detection
+KW  - event logs
+KW  - Monitoring
+KW  - Petri nets
+KW  - Data models
+KW  - Analytical models
+KW  - monitoring
+KW  - Measurement
+KW  - Mathematical models
+KW  - Digital twins
+KW  - modeling
+KW  - Vehicle dynamics
+KW  - Conformance checking (CC)
+KW  - Power system dynamics
+KW  - process discovery (PD)
+KW  - simulation
+KW  - water distribution testbed (WDT)
+ER  - 
+
+TY  - CONF
+TI  - Outlier Detection Techniques for Process Mining Applications
+AU  - Ghionna, Lucantonio
+AU  - Greco, Gianluigi
+AU  - Guzzo, Antonella
+AU  - Pontieri, Luigi
+A2  - An, Aijun
+A2  - Matwin, Stan
+A2  - Raś, Zbigniew W.
+A2  - Ślęzak, Dominik
+AB  - Classical outlier detection approaches may hardly fit process mining applications, since in these settings anomalies emerge not only as deviations from the sequence of events most often registered in the log, but also as deviations from the behavior prescribed by some (possibly unknown) process model. These issues have been faced in the paper via an approach for singling out anomalous evolutions within a set of process traces, which takes into account both statistical properties of the log and the constraints associated with the process model. The approach combines the discovery of frequent execution patterns with a cluster-based anomaly detection procedure; notably, this procedure is suited to deal with categorical data and is, hence, interesting in its own, given that outlier detection has mainly been studied on numerical domains in the literature. All the algorithms presented in the paper have been implemented and integrated into a system prototype that has been thoroughly tested to assess its scalability and effectiveness.
+C1  - Berlin, Heidelberg
+C3  - Foundations of Intelligent Systems
+DA  - 2008///
+PY  - 2008
+DO  - 10.1007/978-3-540-68123-6_17
+DP  - Springer Link
+SP  - 150
+EP  - 159
+LA  - en
+PB  - Springer
+SN  - 978-3-540-68123-6
+ER  - 
+

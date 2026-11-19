@@ -1,0 +1,2434 @@
+TY  - JOUR
+TI  - Cross-system log anomaly detection based on domain adversarial adaptation and batch contrastive learning
+AU  - Tang, P.
+AU  - Guan, Y.
+T2  - Future Generation Computer Systems
+AB  - Log anomaly detection is essential for ensuring the stability and security of modern software systems. To overcome the shortage of anomalous logs in newly deployed systems, log-based cross-system anomaly detection methods have emerged, allowing knowledge transfer from data-rich source system logs to these newer systems. However, directly fine-tuning models on small amounts of target system log data often results in overfitting, which compromises the model's generalization ability. Moreover, simply aligning overall feature distributions without aligning class boundaries can lead to feature misalignment across different classes, degrading detection performance. To address these challenges, we propose a cross-system log anomaly detection method named LogDC, which is based on domain adversarial adaptation and batch contrastive learning. Specifically, LogDC combines label classification loss and domain classification loss during training to implement domain adversarial adaptation, which helps the model learn domain-invariant features for universal feature representation across both the source system (source domain) and the target system (target domain). Additionally, batch contrastive learning is introduced to refine class-level feature alignment. This involves minimizing the feature distance between same-class samples from the source and target domains within a batch, while maximizing the distance between samples of different classes. Through this dual approach, LogDC effectively transfers and utilizes the anomaly detection capabilities of the source domain to the target domain. Experimental results demonstrate that LogDC achieves superior performance compared to existing methods on public datasets. © 2025 Elsevier B.V.
+DA  - 2026///
+PY  - 2026
+DO  - 10.1016/j.future.2025.108022
+VL  - 175
+UR  - https://www.scopus.com/pages/publications/105012588840?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - MAGE: A structural-prior-guided graph-language multimodal framework for business process anomaly detection
+AU  - Yang, Q.
+AU  - Lu, K.
+AU  - Fang, X.
+T2  - Information Systems
+AB  - Business process event logs record activities, resources, timestamps, and other process attributes, and therefore provide the basis for trace-level anomaly detection. Existing methods often lack a unified reference for normal behavior and do not explicitly coordinate structural deviations with semantic information. We propose MAGE, a structural-prior-guided graph-enhanced language embedding framework for business process anomaly detection. MAGE first constructs structural priors solely from normal traces in the training set, including normal directly-follows relations, trace-length statistics, and adjacent-event resource-switching statistics. It then compares each trace with these priors to generate structural deviation signals and constructs both an activity-resource-time-slice heterogeneous graph and a structure-aware textual representation. A heterogeneous graph Transformer extracts structural representations, while a LoRA-adapted Qwen3 model extracts semantic representations. Gated cross-attention fuses the two modalities for trace-level anomaly classification. The structural prior and graph self-supervised pretraining use only normal training traces, whereas the final multimodal classifier is jointly optimized on labeled training samples. Experiments on synthetic logs and public real event logs with controlled anomaly injection show that MAGE achieves the highest mean F1-scores of 0.872 and 0.860, respectively, among the compared methods under the evaluated settings. Ablation results further indicate that the structural prior, heterogeneous graph encoding, structure-aware prompting, and cross-modal fusion each contribute positively to F1-score under the evaluated settings. Together, these findings provide evidence for combining normal-process structural constraints with language-based semantic information in trace-level business process anomaly detection. © 2026 Elsevier Ltd.
+DA  - 2027///
+PY  - 2027
+DO  - 10.1016/j.is.2026.102809
+VL  - 144
+UR  - https://www.scopus.com/pages/publications/105052823395?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - SiaDNN: Siamese deep neural network for anomaly detection in user behavior
+AU  - Patel, T.
+AU  - Iyer, S.S.
+T2  - Knowledge-Based Systems
+AB  - Recently, insider threat detection become a very challenging task as the identification of anomalies from log data is a complex process. Insider threats are unusual activities raised by authorized users. When compared to the external network attack, the insider threats are much lower and the detection of these malicious behavior is a difficult process. The conventional schemes focus on rule-based approaches but are not flexible and robust. User behavior modelling is essential for this anomaly identification. Thus, this paper proposed an effective approach, the Siamese Deep Neural Network (SiaDNN) for detecting anomalies based on user behavior. Here, the SiaNN is designed by the incorporation of Siamese Convolution Neural Network (SCNN) and Deep Neural Network (DNN). At first, the log file is fed to the user behavior features extraction module, where the administrator, authentication, and comments are extracted. Then, the extracted features are encoded and considered for the evaluation of user behavior patterns. Here, the Frequent Pattern Growth (FP growth algorithm) is used for analyzing user behavior patterns. Subsequently, the proposed SiaDNN is used for conducting Anomaly Detection (AD) based on user behavior. The evaluation results show that the SiaDNN accomplished accuracy, False Positive Rate (FPR), and True Positive Rate (TPR) as 91.136 %, 7.300 %, and 90.703 %. The high-performance results achieved by the devised model indicate that the model is highly robust in identifying anomalous requests correctly based on user behavior. The high accuracy rate indicates that the devised model maintains system integrity and trustworthiness in real-time web services. © 2025 Elsevier B.V.
+DA  - 2025///
+PY  - 2025
+DO  - 10.1016/j.knosys.2025.113769
+VL  - 324
+UR  - https://www.scopus.com/pages/publications/105007555764?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Architecting software monitors for control-flow anomaly detection through large language models and conformance checking
+AU  - Vitale, F.
+AU  - Flammini, F.
+AU  - Caporuscio, M.
+AU  - Mazzocca, N.
+T2  - Information and Software Technology
+DA  - 2026///
+PY  - 2026
+DO  - 10.1016/j.infsof.2026.108133
+VL  - 195
+UR  - https://www.scopus.com/pages/publications/105034581936?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Neuro-Symbolic Process Anomaly Detection
+AU  - Gaikwad, D.
+AU  - van der Aalst, W.M.P.
+AU  - Park, G.
+T2  - Lecture Notes in Computer Science
+AB  - Process anomaly detection is an important application of process mining for identifying deviations from the normal behavior of a process. Neural network-based methods have recently been applied to this task, learning directly from event logs without requiring a predefined process model. However, since anomaly detection is a purely statistical task, these models fail to incorporate human domain knowledge. As a result, rare but conformant traces are often misclassified as anomalies due to their low frequency, which limits the effectiveness of the detection process. Recent developments in the field of neuro-symbolic AI have introduced Logic Tensor Networks (LTN) as a means to integrate symbolic knowledge into neural networks using real-valued logic. In this work, we propose a neuro-symbolic approach that integrates domain knowledge into neural anomaly detection using LTN and Declare constraints. Using autoencoder models as a foundation, we encode Declare constraints as soft logical guiderails within the learning process to distinguish between anomalous and rare but conformant behavior. Evaluations on synthetic and real-world datasets demonstrate that our approach improves F1 scores even when as few as 10 conformant traces exist, and that the choice of Declare constraint and by extension human domain knowledge significantly influences performance gains. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2026.
+DA  - 2026///
+PY  - 2026
+DO  - 10.1007/978-3-032-28117-3_14
+VL  - 16559 LNCS
+SP  - 240
+EP  - 255
+UR  - https://www.scopus.com/pages/publications/105041845081?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Business Process Deviance Mining with Sequential and Declarative Patterns
+AU  - Di Francescomarino, C.
+AU  - Donadello, I.
+AU  - Ghidini, C.
+AU  - Maggi, F.M.
+AU  - Puura, J.
+T2  - Business and Information Systems Engineering
+DA  - 2025///
+PY  - 2025
+DO  - 10.1007/s12599-024-00911-5
+VL  - 67
+IS  - 6
+SP  - 877
+EP  - 894
+UR  - https://www.scopus.com/pages/publications/85217251355?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - An Ontology-Based Approach for Anomaly Detection in Business Processes
+AU  - Musa, T.H.A.
+AU  - Bouras, A.
+AU  - Belhi, A.
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+AB  - Business Process Mining is an emerging field dedicated to the analysis of Business Process Models (BPM) by deriving insights from transaction logs generated through various industrial and Supply Chain Management execution information systems, such as a ERP or an MES. This approach facilitates the examination, assessment, and improvement of business activities across the entire lifecycle, from initiation to completion. In this paper, we propose a framework to detect anomalies in business processes by analyzing event logs produced from purchasing transactions. The framework focuses on anomaly detection in the supply chain and aims to improve its accuracy, boost its workflow across multiple business process levels, and improve supply chain processes with an emphasis on security and automation. The suggested approach uses Ontology and designed SWRL rules to classify anomalies in business transactions. The framework has been evaluated using transaction logs from a simulated general a purchasing scenario, as an example of a business process mode, proving its capability to effectively identify and categorize anomalous business transactions. © The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd. 2025.
+DA  - 2025///
+PY  - 2025
+DO  - 10.1007/978-981-96-0579-8_30
+VL  - 15436 LNCS
+SP  - 431
+EP  - 443
+UR  - https://www.scopus.com/pages/publications/85211319330?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - KDLog: a selective knowledge distillation approach for sequential log anomaly detection
+AU  - Cheng, H.
+AU  - Ying, S.
+AU  - Duan, X.
+AU  - Yuan, W.
+T2  - Egyptian Informatics Journal
+AB  - Log anomaly detection is a critical task for ensuring the reliability of complex systems. However, existing methods often suffer from poor adaptability and substantial retraining overhead as log data evolve. This paper introduces a novel framework called KDLog, a knowledge-distillation-based approach that enables accurate and efficient log anomaly detection in dynamic environments. KDLog employs a two-stage selective-distillation mechanism, in which a lightweight student model is trained using the high-confidence outputs generated by a teacher model, effectively preventing negative knowledge transfer. Compared with state-of-the-art methods, KDLog improves overall accuracy by 4.5%, F1-score by 4.3%, and recall by 3.3% on average across real-world datasets (HDFS and BGL). Moreover, it reduces model update time by 60–78% and achieves a smaller model size, by up to 50%, compared with deep learning baselines such as DeepLog and LogAnomaly. Statistical significance tests confirm the robustness of these improvements. Unlike prior methods, KDLog also demonstrates strong resilience to unseen log patterns, with less than a 4% performance drop under simulated log-template drift. These gains make KDLog a scalable and practical solution for real-time anomaly detection, effectively bridging the gap between high-performance learning and operational efficiency in production environments. © 2025
+DA  - 2026///
+PY  - 2026
+DO  - 10.1016/j.eij.2025.100879
+VL  - 33
+UR  - https://www.scopus.com/pages/publications/105026134903?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - MTG-GAN: A Masked Temporal Graph Generative Adversarial Network for Cross-Domain System Log Anomaly Detection
+AU  - Zhang, J.
+AU  - Luo, C.
+AU  - Shao, R.
+T2  - IEEE Transactions on Network and Service Management
+DA  - 2026///
+PY  - 2026
+DO  - 10.1109/TNSM.2026.3654642
+UR  - https://www.scopus.com/pages/publications/105027953658?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - LogCALM: a log-based causal discovery and semantic modeling approach for network fault diagnosis
+AU  - Ye, X.
+AU  - Wang, X.
+AU  - Zhou, Y.
+AU  - Kong, X.
+AU  - Qi, H.
+T2  - Expert Systems with Applications
+DA  - 2026///
+PY  - 2026
+DO  - 10.1016/j.eswa.2025.130553
+VL  - 302
+UR  - https://www.scopus.com/pages/publications/105024894587?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - SpikeLog: Log-Based Anomaly Detection via Potential-Assisted Spiking Neuron Network
+AU  - Qi, J.
+AU  - Luan, Z.
+AU  - Huang, S.
+AU  - Fung, C.
+AU  - Yang, H.
+AU  - Qian, D.
+T2  - IEEE Transactions on Knowledge and Data Engineering
+AB  - The increasing volume and complexity of log data generated by modern systems have made it challenging to analyze and extract useful insights manually. To address this problem, many machine learning methods have been proposed for log-based anomaly detection. However, most of these methods lack interpretability, and their underlying premises do not always reflect real scenarios. In this paper, we consider a more reasonable premise scenario where a large number of logs are unlabeled, while only a small number of anomalous logs are labeled. Moreover, a small proportion of anomaly contamination may be present. To handle this practical scenario, we propose a novel hybrid potential-assisted framework (SpikeLog) using the membrane potential of spiking neurons. SpikeLog adopts a weakly supervised approach to train an anomaly score model, which effectively utilizes a limited number of labeled anomalies alongside abundant unlabeled logs while ensuring computational efficiency without compromising accuracy. Extensive experiments have demonstrated that SpikeLog outperforms baseline methods in terms of performance, robustness, interpretability, and energy consumption. © 1989-2012 IEEE.
+DA  - 2024///
+PY  - 2024
+DO  - 10.1109/TKDE.2023.3347695
+VL  - 36
+IS  - 12
+SP  - 9322
+EP  - 9335
+UR  - https://www.scopus.com/pages/publications/85181554313?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Outlier Detection in VPN Authentication Logs for Corporate Computer Networks Access Using CRISP-DM
+AU  - Legowo, N.
+AU  - Bad, W.M.
+T2  - HighTech and Innovation Journal
+AB  - A Virtual Private Network (VPN) serves as a critical network access solution widely employed by corporations, enabling users to connect to company computer networks via a global infrastructure. Amid the ongoing Covid-19 pandemic, heightened reliance on computer network access has increased the vulnerability to data breaches by unauthorized parties. This necessitates a proactive approach from companies to safeguard data integrity, particularly by identifying abnormal access patterns and timestamps. This study aims to develop a model for detecting anomalous activities within authentication log data obtained from VPN usage. The dataset comprises log entries from September to November 2022, totaling 36,807 records, selected via a systematic sampling approach. Two key attributes, namely user ID and access time, are analyzed to trace access patterns. Employing the CRISP-DM method ensures a structured and efficient research process. The selection of the k value in the K-Nearest Neighbors (K-NN) method significantly impacts outlier detection and can be tailored to suit organizational requirements. By utilizing the K-Means algorithm for data clustering and K-NN for measuring inter-point distances, the study identifies outliers that warrant further investigation by the company. Integration of the proposed model into the company's big data platform facilitates real-time monitoring, enabling the security team to preemptively address potential threats and mitigate network access misuse. By enhancing awareness and responsiveness to information security risks, the model contributes to fortifying the company's cyber security posture amidst evolving digital landscapes. © 2024, Ital Publication. All rights reserved.
+DA  - 2024///
+PY  - 2024
+DO  - 10.28991/HIJ-2024-05-04-016
+VL  - 5
+IS  - 4
+SP  - 1101
+EP  - 1117
+UR  - https://www.scopus.com/pages/publications/85214418038?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - LogEncoder: Log-Based Contrastive Representation Learning for Anomaly Detection
+AU  - Qi, J.
+AU  - Luan, Z.
+AU  - Huang, S.
+AU  - Fung, C.
+AU  - Yang, H.
+AU  - Li, H.
+AU  - Zhu, D.
+AU  - Qian, D.
+T2  - IEEE Transactions on Network and Service Management
+DA  - 2023///
+PY  - 2023
+DO  - 10.1109/TNSM.2023.3239522
+VL  - 20
+IS  - 2
+SP  - 1378
+EP  - 1391
+UR  - https://www.scopus.com/pages/publications/85147289335?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - DRLLog: Deep Reinforcement Learning for Online Log Anomaly Detection
+AU  - Zhou, J.
+AU  - Gao, Y.
+AU  - Zhu, Y.
+AU  - Yu, X.
+AU  - Yang, Y.
+AU  - Tan, C.
+AU  - Xiang, J.
+T2  - IEEE Transactions on Network and Service Management
+AB  - System logs record the system’s status and application behavior, providing support for various system management and diagnostic tasks. However, existing methods for log anomaly detection face several challenges, including limitations in recognizing current types of anomalous logs and difficulties in performing online incremental updates to the anomaly detection models. To address these challenges, this paper introduces DRLLog, which applies Deep Reinforcement Learning (DRL) networks to detect anomalous events. DRLLog uses Deep Q Network (DQN) as the agent, with log entries serving as reward signals. By interacting with the environment generated from log data and adopting various action behaviors, it aims to maximize the reward value obtained as feedback. Through this approach, DRLLog achieves learning from historical log data and perception of the current environment, enabling continuous learning and adaptation to different log sequence patterns. Additionally, DRLLog introduces low-rank adaptation by using two low-rank parameter matrices in the fully connected layer of the DQN to represent changes in its weight matrix. During online model learning, only low-rank parameter matrices of the model are updated, effectively reducing the model’s overhead. Furthermore, DRLLog introduces focal loss to focus more on learning the features of anomalous logs, effectively addressing the issue of imbalanced quantities between normal and anomalous logs. We evaluated the performance on widely used log datasets, including HDFS, BGL and ThunderBird, showing an average improvement of 3% in F1-Score compared to baseline methods. During online model learning, DRLLog achieves an average reduction of 90% in parameter count and a significant decrease in training and testing time as well. © 2004-2012 IEEE.
+DA  - 2025///
+PY  - 2025
+DO  - 10.1109/TNSM.2025.3542595
+VL  - 22
+IS  - 3
+SP  - 2382
+EP  - 2395
+UR  - https://www.scopus.com/pages/publications/85218768706?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - TWLog: Task Workflow-Based Log Anomaly Detection
+AU  - Zhang, S.
+AU  - Fan, D.
+AU  - He, L.
+AU  - Liu, Y.
+AU  - Chen, D.
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+AB  - Log anomaly detection is crucial for pinpointing software issues, particularly in large-scale distributed systems where numerous services span multiple machines. Logs are abundant in such environment, meanwhile the log sequences lack inherent business logic when examined solely based on timestamps. Moreover, the parallel execution of tasks leads to interleaved logs which caused log entries belonging to same task span a wide range of timestamps. Existing anomaly detection approaches ignore the complex structure of a trace brought by its invocation hierarchy. In addition, most of them based on RNNs which is difficulty in capturing long-range dependencies and the challenge of handling variable-length sequences effectively. In this paper, we propose TWLog, a self-supervised deep learning-based method. TWLog uses a unified trace graph to describe the complex structure of a trace combining the task workflow and log events. Based on the basic task workflow from log message, we extract the semantic information from raw log messages as vector representations. These vectors are then fed into a Transformer-based model which can capture the contextual information from task workflow-based log sequences. The experiments on real-world dataset of HDFS, OpenStack and Kubernetes confirm the effectiveness of our method. © The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd. 2024.
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-981-97-7244-5_1
+VL  - 14965 LNCS
+SP  - 3
+EP  - 16
+UR  - https://www.scopus.com/pages/publications/85203151315?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Process Mining with Programmable Logic Controller Memory States
+AU  - Chan, C.F.
+AU  - Chow, K.P.
+T2  - Communications in Computer and Information Science
+AB  - This paper presents novel contributions to the field of process mining in Programmable Logic Controllers (PLCs). One significant contribution is the proposal of a new event source for process mining, which can be used when PLC logs are absent or insufficient. This research also demonstrated the feasibility of converting the memory states of PLCs into event logs, which can be used to construct a process model of the PLC. This approach requires neither detailed knowledge about control logic nor source code of PLC. The paper also evaluates the use of process confrontation as a means of detecting abnormal or cyber-attacks on PLCs, which can provide an effective method for identifying abnormal behaviors and deviations from the normal process flow. Finally, the paper explores other optimization ideas for process mining in PLCs, provides useful insights, and offers potential solutions for extending research in this area. © The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd. 2024.
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-981-97-1274-8_7
+VL  - 2034 CCIS
+SP  - 96
+EP  - 113
+UR  - https://www.scopus.com/pages/publications/85189636817?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - A Graph-Based Unsupervised Log Anomaly Detection Based on the Magnetic Laplacian
+AU  - Yan, K.
+AU  - Jiang, Y.
+T2  - CSECS 2025 - Proceedings of 2025 7th International Conference on Software Engineering and Computer Science
+AB  - Logs record the runtime status of software systems and detailed information of user operations. However, due to the complexity and heterogeneity of log formats and semantics, log anomaly detection work faces challenges. Most existing log anomaly detection methods only consider the quantitative and/or sequential relationships, while ignoring the directional information within logs, which may result in low detection accuracy. In addition, the high cost of manual annotation for logs is another challenge to effective log analysis. To address the aforementioned challenges, this paper introduces L2G-Log, a graph-based unsupervised method for log anomaly detection. The method begins by constructing logs into directed, attributed, and weighted graphs, followed by employing graph neural networks for graph-level anomaly detection. Specially, we introduce a One-Class graph convolutional neural network based on the magnetic Laplacian called OCMagNet. Firstly, it extracts the directional information in log graphs through the magnetic Laplacian and generates a vector representation for each node in graphs. Then, it utilizes Readout(·) to aggregate vector representations into a graph representation for each log graph. Finally, DeepSVDD is employed to identify anomalies without manual labeling of log data. Experiments conducted on two benchmark datasets demonstrate that L2G-Log achieves performance that is on par with or surpasses existing anomaly detection methods. © 2025 IEEE.
+DA  - 2025///
+PY  - 2025
+DO  - 10.1109/CSECS64665.2025.11010043
+UR  - https://www.scopus.com/pages/publications/105007664293?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - PN-BBN: A Petri Net-Based Bayesian Network for Anomalous Behavior Detection
+AU  - Lu, K.
+AU  - Fang, X.
+AU  - Fang, N.
+T2  - Mathematics
+AB  - Business process anomalous behavior detection reveals unexpected cases from event logs to ensure the trusted operation of information systems. Anomaly behavior is mainly identified through a log-to-model alignment analysis or numerical outlier detection. However, both approaches ignore the influence of probability distributions or activity relationships in process activities. Based on this concern, this paper incorporates the behavioral relationships characterized by the process model and the joint probability distribution of nodes related to suspected anomalous behaviors. Moreover, a Petri Net-Based Bayesian Network (PN-BBN) is proposed to detect anomalous behaviors based on the probabilistic inference of behavioral contexts. First, the process model is filtered based on the process structure of the process activities to identify the key regions where the suspected anomalous behaviors are located. Then, the behavioral profile of the activity is used to prune it to position the ineluctable paths that trigger these activities. Further, the model is used as the architecture for parameter learning to construct the PN-BBN. Based on this, anomaly scores are inferred based on the joint probabilities of activities related to suspected anomalous behaviors for anomaly detection under the constraints of control flow and probability distributions. Finally, PN-BBN is implemented based on the open-source frameworks PM4PY and PMGPY and evaluated from multiple metrics with synthetic and real process data. The experimental results demonstrate that PN-BBN effectively identifies anomalous process behaviors and improves the reliability of information systems. © 2022 by the authors.
+DA  - 2022///
+PY  - 2022
+DO  - 10.3390/math10203790
+VL  - 10
+IS  - 20
+UR  - https://www.scopus.com/pages/publications/85140627078?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - An Association Rule Mining-Based Framework for the Discovery of Anomalous Behavioral Patterns
+AU  - Mozafari Mehr, A.S.
+AU  - M. de Carvalho, R.
+AU  - van Dongen, B.
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+AB  - The identification of different risks and threats has become a top priority for organizations in recent years. Various techniques in both data and process mining fields have been developed to uncover unknown risks. However, applying them is challenging for risk analysts since it requires deep knowledge of mining algorithms. To help business and risk analysts to identify potential operational and data security risks, we developed an easy to apply automated framework which can discover anomalous behavioral patterns in business process executions. First, using a process mining technique, it obtains deviations in different aspects of a business process such as skipped tasks, spurious data accesses, and misusage of authorizations. Then, by applying a rule mining technique, it can extract anomalous behavioral patterns. Furthermore, in an automated procedure, our framework is able to automatically interpret anomalous patterns and categorize them into roles, users, and system deviating patterns. We conduct experiments on a real-life dataset from a financial organization and demonstrate that our framework enables accurate diagnostics and a better understanding of deviant behaviors. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG.
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-22064-7_29
+VL  - 13725 LNAI
+SP  - 397
+EP  - 412
+UR  - https://www.scopus.com/pages/publications/85144338937?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Detecting Context-Aware Deviations in Process Executions
+AU  - Park, G.
+AU  - Benzin, J.-V.
+AU  - van der Aalst, W.M.P.
+T2  - Lecture Notes in Business Information Processing
+AB  - A deviation detection aims to detect deviating process instances, e.g., patients in the healthcare process and products in the manufacturing process. A business process of an organization is executed in various contextual situations, e.g., a COVID-19 pandemic in the case of hospitals and a lack of semiconductor chip shortage in the case of automobile companies. Thus, context-aware deviation detection is essential to provide relevant insights. However, existing work 1) does not provide a systematic way of incorporating various contexts, 2) is tailored to a specific approach without using an extensive pool of existing deviation detection techniques, and 3) does not distinguish positive and negative contexts that justify and refute deviation, respectively. In this work, we provide a framework to bridge the aforementioned gaps. We have implemented the proposed framework as a web service that can be extended to various contexts and deviation detection methods. We have evaluated the effectiveness of the proposed framework by conducting experiments using 255 different contextual scenarios. © 2022, Springer Nature Switzerland AG.
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-16171-1_12
+VL  - 458 LNBIP
+SP  - 190
+EP  - 206
+UR  - https://www.scopus.com/pages/publications/85139004435?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Detecting Complex Anomalous Behaviors in Business Processes: A Multi-perspective Conformance Checking Approach
+AU  - Mozafari Mehr, A.S.
+AU  - M. de Carvalho, R.
+AU  - van Dongen, B.
+T2  - Lecture Notes in Business Information Processing
+AB  - Anomaly detection in the execution of business processes in the organizations has a high level of complexity due to the consideration of various process perspectives and their constraints, business rules, privacy policies, and regulations. Furthermore, only detection of anomalies is not sufficient. There is a crucial need for the results of anomaly detection to be explainable and interpretable, enabling users to adapt the decision making process and handle the detected anomalies. The work presented in this paper aims to provide business process owners with human-interpretable explanations for patterns of deviations found between process models and event data recorded during the execution of business processes, while traditional conformance checking methods only report low-level deviations found. First, by introducing an automated approach for multi-perspective conformance checking and anomaly detection in business process executions, we extract expected and unexpected behavior from event logs and identify patterns in deviations. Finally, by focusing on identifying the context involved in patterns of unexpected behavior, our approach facilitates the interpretations of detected patterns. The approach has been implemented in the open source ProM framework and its applicability is evaluated through a real-life dataset from a financial organization. The experiment not only shows that we can automatically detect more complex anomalies such as spurious data processing and misusage of authorizations, but also that we can explain these deviations in context. © 2023 The Author(s)
+DA  - 2023///
+PY  - 2023
+DO  - 10.1007/978-3-031-27815-0_4
+VL  - 468 LNBIP
+SP  - 44
+EP  - 56
+UR  - https://www.scopus.com/pages/publications/85152518825?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - SiaLog: detecting anomalies in software execution logs using the siamese network
+AU  - Hashemi, S.
+AU  - Mäntylä, M.
+T2  - Automated Software Engineering
+AB  - Detecting anomalies in software logs has become a notable concern for software engineers and maintainers as they represent anomalies in software execution paths and states. This paper propose a novel anomaly detection approach based on the Siamese network on top of Recurrent Neural Networks(RNN). Accordingly, we introduce a novel training pair generation algorithm to train the Siamese network which reduces generated training significantly while maintaining the F1 score. Additionally, we propose a hybrid model by combining the Siamese network with a traditional feedforward neural network to make end-to-end training possible, reducing engineering effort in setting up a deep-learning-based log anomaly detector. Furthermore, we provides validations of the approach on the Hadoop Distributed File System (HDFS), Blue Gene/L (BGL), and Hadoop map-reduce task log datasets. To the best of our knowledge, the proposed approach outperforms other methods on the same dataset at the F1 scores of respectively 0.99, 0.99, and 0.94 on HDFS, BGL, and Hadoop datasets, resulting in a new state-of-the-art performance.To further evaluate the proposed method, we examine our method’s robustness to log evolutions by evaluating the model on synthetically evolved log sequences; we got the F1 score of 0.95 on the HDFS dataset at the noise ratio of 20 %. Finally, we dive deep into some of the side benefits of the Siamese network. Accordingly, we introduce an unsupervised log evolution monitoring method alongside a visualization technique that facilitates model interpretability. © 2022, The Author(s).
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/s10515-022-00365-7
+VL  - 29
+IS  - 2
+UR  - https://www.scopus.com/pages/publications/85140029386?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - An intrusion detection method based on log sequence clustering of honeypot for Modbus TCP protocol
+AU  - Wang, P.-H.
+AU  - Liao, I.-E.
+AU  - Kao, K.-F.
+AU  - Huang, J.-Y.
+T2  - Proceedings of 4th IEEE International Conference on Applied System Innovation 2018, ICASI 2018
+AB  - Modbus TCP protocol is a famous and widely used industrial communication protocol for many supervisory control and data acquisition (SCADA) systems. However, with an increasing number of attacks on industrial control systems, honeypot systems must be deployed to collect attacking patterns and understand them clearly. Therefore, identifying potential attacking patterns from honeypots and providing a clear graphical user interface to express attacks are essential. In this paper, we propose an intrusion detection method that uses a honeypot for the Modbus TCP protocol. The proposed method uses an unsupervised clustering method based on log sequence similarity to cluster attacking behaviors, followed by a flow-based graph to express extracted representative attacks. Our method was implemented using the open-source honeypot system Conpot to collect attacking behaviors on Modbus TCP. The experimental results revealed that the proposed method has 90% accuracy for identifying attacking patterns, and can detect unexpected ones at 92% true positive and 0% false positive rates.
+DA  - 2018///
+PY  - 2018
+DO  - 10.1109/ICASI.2018.8394581
+SP  - 255
+EP  - 258
+UR  - https://www.scopus.com/pages/publications/85050274914?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Behavioral classification of business process executions at runtime
+AU  - Van Beest, N.R.T.P.
+AU  - Weber, I.
+T2  - Lecture Notes in Business Information Processing
+AB  - Current automated methods to identify erroneous or malicious executions of a business process from logs, metrics, or other observable effects are based on detecting deviations from the normal behavior of the process. This requires a “single model of normative behavior”: the current execution either conforms to that model, or not. In this paper, we propose a method to automatically distinguish different behaviors during the execution of a process, so that a timely reaction can be triggered, e.g., to mitigate the risk of an ongoing attack. The behavioral classes are learned from event logs of a process, including branching probabilities and event frequencies. Using this method, harmful or problematic behavior can be identified during or even prior to its occurrence, raising alarms as early as undesired behavior is observable. The proposed method has been implemented and evaluated on a set of artificial logs capturing different types of exceptional behavior. Pushing the method to its edge in this evaluation, we provide a first assessment of where the method can clearly discriminate between classes of behavior, and where the differences are too small to make a clear determination.
+DA  - 2017///
+PY  - 2017
+DO  - 10.1007/978-3-319-58457-7_25
+VL  - 281
+SP  - 339
+EP  - 353
+UR  - https://www.scopus.com/pages/publications/85019196559?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Association rules for anomaly detection and root cause analysis in process executions
+AU  - Böhmer, K.
+AU  - Rinderle-Ma, S.
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+AB  - Existing business process anomaly detection approaches typically fall short in supporting experts when analyzing identified anomalies. Hereby, false positives and insufficient anomaly countermeasures might impact an organization in a severely negative way. This work tackles this limitation by basing anomaly detection on association rule mining. It will be shown that doing so enables to explain anomalies, support process change and flexible executions, and to facilitate the estimation of anomaly severity. As a consequence, the risk of choosing an inappropriate countermeasure is likely reduced which, for example, helps to avoid the termination of benign process executions due to mistaken anomalies and false positives. The feasibility of the proposed approach is shown based on a publicly available prototypical implementation as well as by analyzing real life logs with injected artificial anomalies.
+DA  - 2018///
+PY  - 2018
+DO  - 10.1007/978-3-319-91563-0_1
+VL  - 10816 LNCS
+SP  - 3
+EP  - 18
+UR  - https://www.scopus.com/pages/publications/85048476886?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - An anomaly detection technique for business processes based on extended dynamic Bayesian networks
+AU  - Pauwels, S.
+T2  - Proceedings of the ACM Symposium on Applied Computing
+AB  - Checking and analyzing various executions of different Business Processes can be a tedious task as the logs from these executions may contain lots of events, each with a (possibly large) number of attributes. We developed a way to automatically model the behavior captured in log files with dozens of attributes. The advantage of our method is that we do not need any prior knowledge about the data and the attributes. The learned model can then be used to detect anomalous executions in the data. To achieve this we extend the existing Dynamic Bayesian Networks with other (existing) techniques to better model the normal behavior found in log files. We introduce a new algorithm that is able to learn a model of a log file starting from the data itself. The model is capable of scoring events and cases, even when new values or new combinations of values appear in the log file, and has the ability to give a decomposition of the given score, indicating the root cause for the anomalies. Furthermore we show that our model can be used in a more general way for detecting Concept Drift.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1145/3297280.3297326
+SP  - 494
+EP  - 501
+UR  - https://www.scopus.com/pages/publications/85065649776?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Online anomaly detection using dimensionality reduction techniques for HTTP log analysis
+AU  - Juvonen, A.
+AU  - Sipola, T.
+AU  - Hämäläinen, T.
+T2  - Computer Networks
+AB  - Modern web services face an increasing number of new threats. Logs are collected from almost all web servers, and for this reason analyzing them is beneficial when trying to prevent intrusions. Intrusive behavior often differs from the normal web traffic. This paper proposes a framework to find abnormal behavior from these logs. We compare random projection, principal component analysis and diffusion map for anomaly detection. In addition, the framework has online capabilities. The first two methods have intuitive extensions while diffusion map uses the Nyström extension. This fast out-of-sample extension enables real-time analysis of web server traffic. The framework is demonstrated using real-world network log data. Actual abnormalities are found from the dataset and the capabilities of the system are evaluated and discussed. These results are useful when designing next generation intrusion detection systems. The presented approach finds intrusions from high-dimensional datasets in real time.
+DA  - 2015///
+PY  - 2015
+DO  - 10.1016/j.comnet.2015.07.019
+VL  - 91
+SP  - 46
+EP  - 56
+UR  - https://www.scopus.com/pages/publications/84941071538?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - PLAT: An Automated Fault and Behavioural Anomaly Detection Tool for PLC Controlled Manufacturing Systems
+AU  - Ghosh, A.
+AU  - Qin, S.
+AU  - Lee, J.
+AU  - Wang, G.-N.
+T2  - Computational Intelligence and Neuroscience
+AB  - Operational faults and behavioural anomalies associated with PLC control processes take place often in a manufacturing system. Real time identification of these operational faults and behavioural anomalies is necessary in the manufacturing industry. In this paper, we present an automated tool, called PLC Log-Data Analysis Tool (PLAT) that can detect them by using log-data records of the PLC signals. PLAT automatically creates a nominal model of the PLC control process and employs a novel hash table based indexing and searching scheme to satisfy those purposes. Our experiments show that PLAT is significantly fast, provides real time identification of operational faults and behavioural anomalies, and can execute within a small memory footprint. In addition, PLAT can easily handle a large manufacturing system with a reasonable computing configuration and can be installed in parallel to the data logging system to identify operational faults and behavioural anomalies effectively.
+DA  - 2016///
+PY  - 2016
+DO  - 10.1155/2016/1652475
+VL  - 2016
+UR  - https://www.scopus.com/pages/publications/84999016806?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Detecting Deviations in Business Processes Using Process Mining
+AU  - M. A. Ellatif
+AU  - E. M. Shaaban
+AU  - M. A. Amin
+T2  - 2019 14th International Conference on Computer Engineering and Systems (ICCES)
+AB  - Monitoring business processes is one of process mining duties, this study aims to detect and diagnose deviations in business processes starting from process discovery to detection and diagnosis as well. The solution is applied to an anonymous Radiology lab in Egypt that focuses on the service process. The data set is about 184622 events that represent 21478 cases extracted from the database according to process mining required attributes. After detecting deviations by applying conformance checking; the results show the deviated cases because of the skipped, inserted, or switched activities. Besides; in some cases, there are overlapped processes that lead to a lot of diagnostics are applied to know deviations causes that influence the process which gives more insights for both all moves on the log and all moves on model for all activities. This finally gives recommendations to control these deviations and to enhance the service process by separating some activities into another process, some cases when doing more one service, or the interaction between instruments and the service process which finally enhanced the service process in the Radiology lab.
+C3  - 2019 14th International Conference on Computer Engineering and Systems (ICCES)
+DA  - 2019/12/17/
+PY  - 2019
+DO  - 10.1109/ICCES48960.2019.9068146
+SP  - 49
+EP  - 54
+KW  - Business
+KW  - Process mining
+KW  - Data models
+KW  - Business processes
+KW  - Conformance checking
+KW  - Data mining
+KW  - Deviation detection
+KW  - Filtering algorithms
+KW  - Information systems
+KW  - Process control
+KW  - Process discovery
+KW  - Radiology
+ER  - 
+
+TY  - CONF
+TI  - LogTransfer: Cross-System Log Anomaly Detection for Software Systems with Transfer Learning
+AU  - R. Chen
+AU  - S. Zhang
+AU  - D. Li
+AU  - Y. Zhang
+AU  - F. Guo
+AU  - W. Meng
+AU  - D. Pei
+AU  - Y. Zhang
+AU  - X. Chen
+AU  - Y. Liu
+T2  - 2020 IEEE 31st International Symposium on Software Reliability Engineering (ISSRE)
+AB  - System logs, which describe a variety of events of software systems, are becoming increasingly popular for anomaly detection. However, for a large software system, current unsupervised learning-based methods are suffering from low accuracy due to the high diversity of logs, while the supervised learning methods are nearly infeasible to be used in practice because it is time-consuming and labor-intensive to obtain sufficient labels for different types of software systems. In this paper, we propose a novel framework, LogTransfer, which applies transfer learning to transfer the anomalous knowledge of one type of software system (source system) to another (target system). We represent every template using Glove, which considers both global word co-occurrence and local context information, to address the challenge that different types of software systems are different in log syntax while the semantics of logs should be reserved. We apply an LSTM network to extract the sequential patterns of logs, and propose a novel transfer learning method sharing fully connected networks between source and target systems, to minimize the impact of noises in anomalous log sequences. Extensive experiments have been performed on switch logs of different vendors collected from a top global cloud service provider. LogTransfer achieves an averaged 0.84 F1-score and outperforms the state-of-the-art supervised and unsupervised log-based anomaly detection methods, which are consistent with the experiments conducted on the public HDFS and Hadoop application datasets.
+C3  - 2020 IEEE 31st International Symposium on Software Reliability Engineering (ISSRE)
+DA  - 2020/10/12/
+PY  - 2020
+DO  - 10.1109/ISSRE5003.2020.00013
+SP  - 37
+EP  - 47
+SN  - 2332-6549
+KW  - anomaly detection
+KW  - Anomaly detection
+KW  - Semantics
+KW  - Software systems
+KW  - Supervised learning
+KW  - LSTM
+KW  - Switches
+KW  - Transfer learning
+KW  - system log
+KW  - Software reliability
+KW  - Syntactics
+KW  - word embedding
+ER  - 
+
+TY  - JOUR
+TI  - HitAnomaly: Hierarchical Transformers for Anomaly Detection in System Log
+AU  - S. Huang
+AU  - Y. Liu
+AU  - C. Fung
+AU  - R. He
+AU  - Y. Zhao
+AU  - H. Yang
+AU  - Z. Luan
+T2  - IEEE Transactions on Network and Service Management
+AB  - Enterprise systems often produce a large volume of logs to record runtime status and events. Anomaly detection from system logs is crucial for service management and system maintenance. Most existing log-based anomaly detection methods use log event indexes parsed from log data to detect anomalies. Those methods cannot handle unseen log templates and lead to inaccurate anomaly detection. Some recent studies focused on the semantics of log templates but ignored the information of parameter values. Therefore, their approaches failed to address the abnormal logs caused by parameter values. In this article, we propose HitAnomaly, a log-based anomaly detection model utilizing a hierarchical transformer structure to model both log template sequences and parameter values. We designed a log sequence encoder and a parameter value encoder to obtain their representations correspondingly. We then use an attention mechanism as our final classification model. In this way, HitAnomaly is able to capture the semantic information in both log template sequence and parameter values and handle various types of anomalies. We evaluated our proposed method on three log datasets. Our experimental results demonstrate that HitAnomaly has outperformed other existing log-based anomaly detection methods. We also assess the robustness of our proposed model on unstable log data.
+DA  - 2020/12//
+PY  - 2020
+DO  - 10.1109/TNSM.2020.3034647
+VL  - 17
+IS  - 4
+SP  - 2064
+EP  - 2076
+J2  - IEEE Transactions on Network and Service Management
+SN  - 1932-4537
+KW  - anomaly detection
+KW  - Anomaly detection
+KW  - Task analysis
+KW  - Semantics
+KW  - Runtime
+KW  - Indexes
+KW  - Maintenance engineering
+KW  - Transforms
+KW  - hierarchical transformers
+KW  - Log data analysis
+ER  - 
+
+TY  - JOUR
+TI  - System Log Anomaly Detection With Noise-Contrastive Learning and Pattern Feature
+AU  - P. Luo
+AU  - D. Deng
+AU  - M. Xie
+AU  - G. Yang
+AU  - J. Chu
+AU  - B. -H. Soong
+AU  - C. Yuen
+T2  - IEEE Transactions on Network Science and Engineering
+AB  - System logs play a critical role in identifying security threats such as network attacks, unauthorized access, and system vulnerabilities. Recent research has focused on extracting sequences of security-related events from large-scale log data and applying deep learning methods for anomaly detection. These methods achieve anomaly detection by designing an auxiliary training task that predicts the next event. However, the inconsistency between the task of event prediction and the goal of anomaly detection limits their performance. In this paper, we introduce a noise-contrastive learning approach that introduces synthetic noise as a training signal, enabling the model to directly discriminate between normal and anomalous samples. Our approach also includes an ensemble model, STrees, and a novel feature engineering method named pattern feature. By modeling the relationships among events under normal conditions, these methods allow the model to capture contextual dependencies in log event sequences, thereby improving its ability to detect potential anomalies. Specifically, using the pattern feature improves anomaly-class recall by at least 7.3% compared to using event sequences as input. Experimental results demonstrate that our model improves anomaly-class recall by at least 5.3% over advanced log anomaly detection methods while achieving more accurate detection in most comparisons across datasets. These results highlight the effectiveness of our approach in learning discriminative decision boundaries between normal and anomalous event sequence patterns.
+DA  - 2026///
+PY  - 2026
+DO  - 10.1109/TNSE.2025.3579809
+VL  - 13
+SP  - 11
+EP  - 24
+J2  - IEEE Transactions on Network Science and Engineering
+SN  - 2327-4697
+KW  - anomaly detection
+KW  - Anomaly detection
+KW  - machine learning
+KW  - Forestry
+KW  - Computational modeling
+KW  - Deep learning
+KW  - Predictive models
+KW  - Adaptation models
+KW  - Semantics
+KW  - Security
+KW  - Training
+KW  - Context modeling
+KW  - contrastive learning
+KW  - synthetic data
+KW  - System log
+ER  - 
+
+TY  - CONF
+TI  - Weakly-Supervised Log-Based Anomaly Detection with Inexact Labels via Multi-Instance Learning
+AU  - M. He
+AU  - T. Jia
+AU  - C. Duan
+AU  - H. Cai
+AU  - Y. Li
+AU  - G. Huang
+T2  - 2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)
+AB  - Log-based anomaly detection is essential for maintaining software availability. However, existing log-based anomaly detection approaches heavily rely on fine-grained exact labels of log entries which are very hard to obtain in real-world systems. This brings a key problem that anomaly detection models require supervision signals while labeled log entries are unavailable. Facing this problem, we propose a new labeling strategy called inexact labeling that instead of labeling an log entry, system experts can label a bag of log entries in a time span. Furthermore, we propose MIDLog, a weakly supervised log-based anomaly detection approach with inexact labels. We leverage the multiinstance learning paradigm to achieve explicit separation of anomalous log entries from the inexact labeled anomalous log set so as to deduce exact anomalous log labels from inexact labeled log sets. Extensive evaluation on three public datasets shows that our approach achieves an F1 score of over 85% with inexact labels.
+C3  - 2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)
+DA  - 2025/05/26/
+PY  - 2025
+DO  - 10.1109/ICSE55347.2025.00189
+SP  - 2918
+EP  - 2930
+SN  - 1558-1225
+KW  - Anomaly detection
+KW  - Labeling
+KW  - Software
+KW  - Software engineering
+KW  - Anomaly Detection
+KW  - Log Analysis
+KW  - Multi-instance Learning
+KW  - Weakly-supervised Learning
+ER  - 
+
+TY  - JOUR
+TI  - MLog: Mogrifier LSTM-Based Log Anomaly Detection Approach Using Semantic Representation
+AU  - Y. Fu
+AU  - K. Liang
+AU  - J. Xu
+T2  - IEEE Transactions on Services Computing
+AB  - Streaming logs provide valuable information for complex systems in diagnosing system faults or conducting security analysis. Although the log sequence anomaly detection has drawn more and more attention and achieved a satisfactory performance, it remains an extremely difficult task because of several intrinsic challenges including new event occurrences in a continuously evolving environment, making full use of rich dependency hidden in sequential events from the global and local view. To meet these challenges, in this article, we propose MLog, a hybrid deep neural network for detecting anomalies in log sequences. Specifically, MLog leverages the transformer encoder and a novel event Inverse Document Frequency (IDF) weighted mechanism to obtain a semantic vector for an individual log template. Log sequences represented by sequential template semantic vectors are then fed into a deep neural network combing the Mogrifier Long Short Term Memory (LSTM) with Convolutional Neural Network (CNN) to capture global and local sequential patterns simultaneously. We implement MLog and evaluate it by conducting extensive experiments on two well-known benchmark datasets, HDFS and BGL, from the aspects of detection accuracy and robustness. The results show that MLog outperforms the state-of-the-art approaches and is robust to the evolving logs. To encourage reproducibility, we make the implementation of MLog available.
+DA  - 2023/10//
+PY  - 2023
+DO  - 10.1109/TSC.2023.3289488
+VL  - 16
+IS  - 5
+SP  - 3537
+EP  - 3549
+J2  - IEEE Transactions on Services Computing
+SN  - 1939-1374
+KW  - anomaly detection
+KW  - Anomaly detection
+KW  - Deep learning
+KW  - Long short term memory
+KW  - Task analysis
+KW  - Semantics
+KW  - Runtime
+KW  - Feature extraction
+KW  - Robustness
+KW  - log parsing
+KW  - mogrifier LSTM
+KW  - semantic vector
+ER  - 
+
+TY  - JOUR
+TI  - LogLLM: Log-based Anomaly Detection Using Large Language Models
+AU  - W. Guan
+AU  - J. Cao
+AU  - S. Qian
+AU  - J. Gao
+AU  - C. Ouyang
+T2  - IEEE Transactions on Software Engineering
+AB  - Software systems often record important runtime information in logs to help with troubleshooting. Log-based anomaly detection has become a key research area that aims to identify system issues through log data, ultimately enhancing the reliability of software systems. Existing methods often fall short in capturing the semantic information, typically expressed in natural language, or the sequential dependencies inherent in log sequences. In this paper, we propose LogLLM, a framework that enables collaboration between heterogeneous LLMs for log-based anomaly detection. LogLLM exploits the complementary capabilities of different LLM architectures: a Transformer encoder-based LLM is employed to extract fine-grained semantic vectors from individual log messages, while a Transformer decoder-based LLM is utilized to model sequential dependencies and generate anomaly detection decisions. To enable effective collaboration between these heterogeneous LLMs, we introduce a learnable projector to align their vector representation spaces. Furthermore, we design a progressive three-stage training strategy to optimize the collaboration between heterogeneous LLMs by gradually aligning their representations and adapting them to log anomaly detection. Unlike conventional methods that require log parsers to extract templates, LogLLM preprocesses log messages with regular expressions, streamlining the entire process. Experimental results on four public real-world datasets demonstrate that LogLLM outperforms state-of-the-art methods, achieving an average F1-score improvement of 6.6% over the strongest existing approach. Further analyses provide insights into the effectiveness of the key components of the model architecture and progressive three-stage training strategy.
+DA  - 2026///
+PY  - 2026
+DO  - 10.1109/TSE.2026.3740394
+SP  - 1
+EP  - 16
+J2  - IEEE Transactions on Software Engineering
+SN  - 1939-3520
+KW  - anomaly detection
+KW  - Anomaly detection
+KW  - Modeling
+KW  - Large language models
+KW  - Transformers
+KW  - deep learning
+KW  - large language models
+KW  - Conferences
+KW  - Training
+KW  - Decoding
+KW  - Sequences
+KW  - Sequential analysis
+KW  - Vectors
+KW  - log analysis
+KW  - System reliability
+ER  - 
+
+TY  - CONF
+TI  - ScalaLog: Scalable Log-Based Failure Diagnosis Using LLM
+AU  - L. Zhang
+AU  - T. Jia
+AU  - M. Jia
+AU  - Y. Wu
+AU  - H. Liu
+AU  - Y. Li
+T2  - ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+AB  - As Industrial Internet of Things (IIoT) software systems become increasingly complex, precise failure diagnosis has become both essential and challenging. Current log-based failure diagnosis methods lack scalability for different failure types. In IIoT software systems, the number of failure types is constantly growing, and retraining the model each time a new failure type is introduced is highly resource-intensive. Additionally, traditional log-based failure diagnosis models often require log parsing as a preliminary step, which can also be resource-consuming. To address these challenges, we propose a scalable log-based failure diagnosis method named ScalaLog. ScalaLog builds on RAG by utilizing LLM-based summarization to extract key log information, applying sample augmentation to increase the number of samples, and using CoT prompts to guide the LLM in failure diagnosis. Experiments on various public and real-world datasets demonstrate that ScalaLog significantly enhances failure diagnosis accuracy without the need for training or log parsing.
+C3  - ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+DA  - 2025/04/06/
+PY  - 2025
+DO  - 10.1109/ICASSP49660.2025.10888670
+SP  - 1
+EP  - 5
+SN  - 2379-190X
+KW  - Accuracy
+KW  - Large Language Model
+KW  - Scalability
+KW  - Data mining
+KW  - Analytical models
+KW  - Software systems
+KW  - Training
+KW  - Industrial Internet of Things
+KW  - Log Analysis
+KW  - Signal processing
+KW  - Speech processing
+KW  - Acoustics
+KW  - Failure Diagnosis
+ER  - 
+
+TY  - JOUR
+TI  - E-Log: Fine-Grained Elastic Log-Based Anomaly Detection and Diagnosis for Databases
+AU  - L. Zhang
+AU  - T. Jia
+AU  - X. Tan
+AU  - X. Huang
+AU  - M. Jia
+AU  - H. Liu
+AU  - Z. Wu
+AU  - Y. Li
+T2  - IEEE Transactions on Services Computing
+AB  - Database Management Systems (DBMS) form the backbone of modern large-scale software systems, where reliable anomaly detection and diagnosis are essential for ensuring system availability. However, existing log-based methods often impose significant performance overhead by collecting large volumes of logs, which is impractical for DBMS requiring high read/write throughput. This paper addresses a critical yet underexplored challenge: how to balance logging granularity with runtime efficiency for effective anomaly management in databases. We present E-Log, a novel fine-grained elastic log-based framework for anomaly detection and diagnosis. E-Log intelligently adjusts the amount and detail of logging based on system state—maintaining lightweight logging during normal operation for efficient anomaly detection, and triggering rich, informative logging only upon anomaly suspicion for accurate diagnosis. This adaptive strategy significantly reduces runtime overhead while preserving diagnostic precision. We implement E-Log on Apache IoTDB and evaluate it using benchmarks including TSBS, TPCx-IoT, and IoT-Bench. Experimental results show that E-Log improves anomaly detection accuracy by 3.15% and diagnosis performance by 9.32% compared to state-of-the-art methods. Moreover, it reduces log storage size by 43.53% and increases average write throughput by 26.22%. These results highlight E-Log’s potential to enable efficient, accurate, and scalable anomaly management in high-performance database systems.
+DA  - 2025/10//
+PY  - 2025
+DO  - 10.1109/TSC.2025.3594870
+VL  - 18
+IS  - 5
+SP  - 2808
+EP  - 2821
+J2  - IEEE Transactions on Services Computing
+SN  - 1939-1374
+KW  - Anomaly detection
+KW  - Accuracy
+KW  - Benchmark testing
+KW  - Databases
+KW  - Runtime
+KW  - Software systems
+KW  - Training
+KW  - Throughput
+KW  - Solid modeling
+KW  - Maintenance
+KW  - anomaly diagnosis
+KW  - database
+KW  - elastic log
+ER  - 
+
+TY  - CONF
+TI  - LogRAG: Semi-Supervised Log-based Anomaly Detection with Retrieval-Augmented Generation
+AU  - W. Zhang
+AU  - Q. Zhang
+AU  - E. Yu
+AU  - Y. Ren
+AU  - Y. Meng
+AU  - M. Qiu
+AU  - J. Wang
+T2  - 2024 IEEE International Conference on Web Services (ICWS)
+AB  - Log-based anomaly detection is critical in monitoring the operation of microservice systems and in the realtime reporting of system failures. Utilizing deep learning-based log anomaly detection methods facilitates effective detection of anomalies within logs. However, existing methods are greatly dependent on log parsers, and parsing errors can considerably affect downstream anomaly detection tasks. Additionally, methods that predict the next log event in a sequence are susceptible to the instability of sequences and the emergence of unseen logs as systems evolve, resulting in a higher false positive rate. In this paper, we propose a semi-supervised log anomaly detection framework based on retrieval-augmented generation (RAG). This framework conducts phased detection using both Log Tokens and Log Templates to mitigate the impact of log parsing errors. It also utilizes a single-class classifier to model the normal behavior of the system, thereby circumventing the effects of unstable sequences. Finally, it employs large language model (LLM) empowered by RAG to reevaluate detected anomalous logs.
+C3  - 2024 IEEE International Conference on Web Services (ICWS)
+DA  - 2024/07/07/
+PY  - 2024
+DO  - 10.1109/ICWS62655.2024.00129
+SP  - 1100
+EP  - 1102
+SN  - 2836-3868
+KW  - Anomaly detection
+KW  - Large Language Model
+KW  - Large language models
+KW  - Monitoring
+KW  - Deep Learning
+KW  - Analytical models
+KW  - Web services
+KW  - Microservice architectures
+KW  - Log Analysis
+KW  - Retrieval-Augmented Generation
+KW  - Log Anomaly Detection
+ER  - 
+
+TY  - JOUR
+TI  - DUAL: A Federated Unsupervised Anomaly Detection Framework for Collaborative Business Processes
+AU  - W. Guan
+AU  - J. Cao
+AU  - H. Zhao
+AU  - J. Gao
+AU  - S. Qian
+T2  - IEEE Transactions on Services Computing
+AB  - Detecting anomalies in business processes is imperative for achieving operational success, especially as multiple participants increasingly engage in collaborative efforts to complete processes, i.e., collaborative business processes, amidst rapid economic development. However, existing business process anomaly detection approaches are typically designed for centralized training, making them impractical for collaborative business processes that require stringent privacy measures. In this paper, we introduce a feDerated Unsupervised AnomaLy detection framework for collaborative business processes, named DUAL. DUAL enables participants to collaboratively detect anomalies via a third-party coordinator, which constructs a global view from the hidden representations of participants’ local sub-traces without exposing the sub-traces themselves. To further strengthen privacy protection, DUAL injects differential privacy noise into the transmitted hidden representations. To mitigate the global-local discrepancy, we introduce novel event execution errors which indicate whether the client who is supposed to execute the reconstructed event is consistent with the observed one. Extensive experiments demonstrate that DUAL effectively detects anomalies in collaborative processes while preserving privacy, achieving performance comparable to a centralized setting that requires access to participants’ raw sub-traces.
+DA  - 2026/06//
+PY  - 2026
+DO  - 10.1109/TSC.2026.3682348
+VL  - 19
+IS  - 3
+SP  - 2089
+EP  - 2102
+J2  - IEEE Transactions on Services Computing
+SN  - 1939-1374
+KW  - Anomaly detection
+KW  - process mining
+KW  - deep learning
+KW  - Protocols
+KW  - Communication systems
+KW  - Computer networks
+KW  - Circuits
+KW  - collaborative business process
+KW  - federated learning
+KW  - Feedback
+KW  - Feeds
+KW  - Information filtering
+KW  - Integrated circuits
+KW  - IP networks
+KW  - Recommender systems
+ER  - 
+
+TY  - CONF
+TI  - CausalConvLSTM: Semi-Supervised Log Anomaly Detection Through Sequence Modeling
+AU  - S. Yen
+AU  - M. Moh
+AU  - T. -S. Moh
+T2  - 2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)
+AB  - Computer systems utilize logging to record events of interest. These logs are a rich source of information, and can be analyzed to detect attacks, failures, and many other issues. Due to the automated generation of logs by computer processes, the volume and throughput of logs can be extremely large, limiting the effectiveness of manual analysis. Rule-based systems were introduced to automatically detect issues based on rules written by experts. However, these systems can only detect known issues for which related rules exist in the rule-set. On the other hand, anomaly detection (AD) approaches can detect unknown issues. This is achieved by looking for unusual behaviors significantly different from the norm. In this paper, we target the problem of semi-supervised log anomaly detection, where the only training data available are normal logs from a baseline period. We propose a novel hybrid model called "CausalConvLSTM" for modeling log sequences that takes advantage of Convolutional Neural Network's (CNN) ability to efficiently extract spatial features in a parallel fashion, and Long Short-Term Memory (LSTM) network's superior ability to capture sequential relationships. Another major challenge faced by anomaly detection systems is concept drift, which is the change in normal system behavior over time. We proposed and evaluated concrete strategies for retraining neural-network (NN) anomaly detection systems to adapt to concept drift.
+C3  - 2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)
+DA  - 2019/12/16/
+PY  - 2019
+DO  - 10.1109/ICMLA.2019.00217
+SP  - 1334
+EP  - 1341
+KW  - Anomaly detection
+KW  - Machine learning
+KW  - Computational modeling
+KW  - Predictive models
+KW  - Feature extraction
+KW  - Convolution
+KW  - Artificial neural networks
+KW  - Deep Learning, Machine Learning, Recurrent NN, Long Short-Term Memory, Gated Recurrent Units, Convolutional NN, Causal Convolution, Concept Drift
+ER  - 
+
+TY  - JOUR
+TI  - ilLog: Incremental Learning Based Anomaly Detection From Evolving System Logs
+AU  - J. Tian
+AU  - M. Li
+AU  - Z. Wang
+AU  - L. Chen
+AU  - J. Qin
+AU  - J. Gan
+T2  - IEEE Transactions on Dependable and Secure Computing
+AB  - Log anomaly detection (LAD) is of paramount importance to enhance the reliability and stability of software systems. Current state-of-the-art LAD suffers a significant performance degradation when dealing with consistently evolving log events caused by system updates. To build a reliable LAD model under the context of log data evolution, we propose an incremental learning-based method for LAD, namely ilLog, to avoid catastrophic forgetting of previously learned knowledge while continuously updating the model for better detection when processing the evolving log events. In particular, we design a novel entropy-driven sorting algorithm for real log sample replay, which enables the preservation of old knowledge via storing representative samples with discrete sequence features from previous tasks. Additionally, we introduce a Halton-based low discrepancy sequence to better approximate the sliced Cramér distance between the probability distributions of two models, thus enhancing the model learning capability. Based on a standard incremental learning protocol setting, we evaluate the newly proposed ilLog method on three publicly available datasets. Experimental results demonstrate that our approach achieves the best performance compared to SOTA LAD methods and models by applying existing IL-based methods in evolving software systems.
+DA  - 2026/08//
+PY  - 2026
+DO  - 10.1109/TDSC.2026.3690744
+VL  - 23
+IS  - 4
+SP  - 9074
+EP  - 9087
+J2  - IEEE Transactions on Dependable and Secure Computing
+SN  - 1941-0018
+KW  - Anomaly detection
+KW  - Modeling
+KW  - Learning (artificial intelligence)
+KW  - Conferences
+KW  - Educational institutions
+KW  - Training
+KW  - Sequences
+KW  - Sequential analysis
+KW  - Signal detection
+KW  - incremental learning
+KW  - Log anomaly detection
+KW  - Incremental learning
+KW  - information entropy
+KW  - Quasi-Monte Carlo
+ER  - 
+
+TY  - CONF
+TI  - Anomaly Detection using Generative Adversarial Networks on Firewall Log Message Data
+AU  - S. P. Kulyadi
+AU  - P. Mohandas
+AU  - S. K. S. Kumar
+AU  - M. J. S. Raman
+AU  - V. S. Vasan
+T2  - 2021 13th International Conference on Electronics, Computers and Artificial Intelligence (ECAI)
+AB  - Firewalls produce a lot of log messages while logging internet traffic through the system that they are protecting. This is a huge amount of data that can be used to find various insights. One of these insights knows if a malware attack has taken place. We treat this sequence of log messages as time series data. In this paper, we propose a Generative Adversarial Network (GAN) model based on Recurrent Neural Networks (RNN) that learns the normal behavior of the firewall, the complex spatio-temporal correlations in the data. We then apply anomaly detection techniques to detect an anomaly which can potentially be a malware.
+C3  - 2021 13th International Conference on Electronics, Computers and Artificial Intelligence (ECAI)
+DA  - 2021/07/01/
+PY  - 2021
+DO  - 10.1109/ECAI52376.2021.9515086
+SP  - 1
+EP  - 6
+KW  - Deep Learning
+KW  - Learning (artificial intelligence)
+KW  - Machine Learning
+KW  - Anomaly Detection
+KW  - LSTM
+KW  - Recurrent neural networks
+KW  - Time series analysis
+KW  - Correlation
+KW  - Computers
+KW  - Malware Detection
+KW  - Firewalls (computing)
+KW  - Generative adversarial networks
+KW  - Recurrent Neural Networks (RNN)
+KW  - Generative Adversarial Networks (GAN)
+ER  - 
+
+TY  - JOUR
+TI  - Log-Based Anomaly Detection With Robust Feature Extraction and Online Learning
+AU  - S. Han
+AU  - Q. Wu
+AU  - H. Zhang
+AU  - B. Qin
+AU  - J. Hu
+AU  - X. Shi
+AU  - L. Liu
+AU  - X. Yin
+T2  - IEEE Transactions on Information Forensics and Security
+AB  - Cloud technology has brought great convenience to enterprises as well as customers. System logs record notable events and are becoming valuable resources to track and investigate system status. Detecting anomaly from logs as fast as possible can improve the quality of service significantly. Although many machine learning algorithms (e.g., SVM, Logistic Regression) have high detection accuracy, we find that they assume data are clean and might have high training time. Facing these challenges, in this paper, we propose Robust Online Evolving Anomaly Detection (ROEAD) framework which adopts Robust Feature Extractor (RFE) to remove the effects of noise and Online Evolving Anomaly Detection (OEAD) to dynamic update parameters. We propose Online Evolving SVM (OES) algorithm as the example of online anomaly detection methods. We analyze the performance of OES in theory and prove the performance difference between OES and the best hypothesis tends to zero as time goes infinity. We compare the performance of ROEAD against state-of-the-art anomaly detection algorithms using public log datasets. The results demonstrate that ROEAD is able to remove the effects of noise and OES can improve the detection accuracy by more than 40%.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1109/TIFS.2021.3053371
+VL  - 16
+SP  - 2300
+EP  - 2311
+J2  - IEEE Transactions on Information Forensics and Security
+SN  - 1556-6021
+KW  - Anomaly detection
+KW  - Machine learning algorithms
+KW  - Semantics
+KW  - Support vector machines
+KW  - Feature extraction
+KW  - Noise measurement
+KW  - Training
+KW  - Online learning
+KW  - RFE
+KW  - ROEAD
+ER  - 
+
+TY  - JOUR
+TI  - Anomaly Detection in Smart IoT Systems Based on Contextual Semantics of Behavior Graphs
+AU  - Q. Lin
+AU  - S. Chang
+AU  - J. Mao
+AU  - Q. Liu
+AU  - Z. Liu
+AU  - Y. Lu
+AU  - Y. Huo
+T2  - IEEE Internet of Things Journal
+AB  - With the advancement of Internet of Things (IoT) technology, smart IoT systems have become integral to industrial production and daily life. However, they face significant security and privacy vulnerabilities from different aspects. To enhance the security mechanisms, “Meta Computing” techniques (also called “Network-as-a-Computer, NaaC”) integrate all available computing resources and support zero-trust environments. Traditional anomaly detection methods consider the correlation between two events, which can be bypassed by constructing fake events that indirectly influence target devices, leading to false negatives. To address this issue, behavior-context-based approaches struggle with the complexity and variability of behavior patterns, resulting in false positives due to their inability to tolerate slight differences in event sequences representing the same system behavior. In this paper, we propose an anomaly detection approach in smart IoT systems based on the contextual semantics of behavior graphs. Our method captures critical event semantics while tolerating variations in noncritical events to aggregate and summarize the behavior semantics. We cluster benign behaviors and use whether the testing behavior instance falls into the benign behavior clusters as the criterion for anomaly detection. Our experiment results show that our approach effectively differentiates between anomalous and benign behaviors, significantly reducing false positives and negatives compared to state-of-the-art methods.
+DA  - 2025/05/15/
+PY  - 2025
+DO  - 10.1109/JIOT.2024.3523998
+VL  - 12
+IS  - 10
+SP  - 13683
+EP  - 13696
+J2  - IEEE Internet of Things Journal
+SN  - 2327-4662
+KW  - Anomaly detection
+KW  - Internet of Things
+KW  - Semantics
+KW  - Security
+KW  - Automation
+KW  - Humidity
+KW  - Smart homes
+KW  - Correlation
+KW  - Internet of Things (IoT)
+KW  - system behavior analysis
+KW  - Footwear
+KW  - meta computing
+KW  - Motion detection
+ER  - 
+
+TY  - CONF
+TI  - An Approach to Cloud Execution Failure Diagnosis Based on Exception Logs in OpenStack
+AU  - Y. Yuan
+AU  - W. Shi
+AU  - B. Liang
+AU  - B. Qin
+T2  - 2019 IEEE 12th International Conference on Cloud Computing (CLOUD)
+AB  - Cloud is getting ubiquitous and scales up rapidly. It is critical to effectively detect and efficiently repair system anomalies for a robust cloud. Many efforts have been made to facilitate analysis of system problems with the readily-available and massive cloud logs. However, most tools can still not automatically recognize failures related to a specific cloud operating system task. To diagnose execution failures of a cloud, it is inevitable to monitor corresponding system tasks. In this paper, we propose a lightweight approach to identify cloud behaviors related to failed executions of the cloud operating system for failure diagnosis, by exploiting logs of ERROR logging level in a cloud. Instead of working on execution sequences extracted from logs for all system tasks, we focus on automated recognition of exception logs generated by a system task. These logs are critical snippets of execution traces for failure diagnosis of a cloud. In our work, exception logs are extracted and associated with the respective system task. Efforts can be reduced by comparing patterns of new error cloud behaviors with cloud behaviors met before. With experiments on OpenStack, a popular open source cloud operating system, we demonstrate that our work is effective and efficient for execution failure diagnosis of a cloud. Our approach can also be used as a complementary method for log-based troubleshooting tools concentrating on execution sequences.
+C3  - 2019 IEEE 12th International Conference on Cloud Computing (CLOUD)
+DA  - 2019/07/08/
+PY  - 2019
+DO  - 10.1109/CLOUD.2019.00031
+SP  - 124
+EP  - 131
+SN  - 2159-6190
+KW  - Monitoring
+KW  - Cloud computing
+KW  - Databases
+KW  - Resilience
+KW  - Maintenance engineering
+KW  - log analysis
+KW  - Operating systems
+KW  - Natural language processing
+KW  - Pattern recognition
+KW  - failure diagnosis
+KW  - IaaS cloud
+KW  - System recovery
+ER  - 
+
+TY  - CONF
+TI  - MEDUSA: Malware Detection Using Statistical Analysis of System's Behavior
+AU  - M. E. Ahmed
+AU  - S. Nepal
+AU  - H. Kim
+T2  - 2018 IEEE 4th International Conference on Collaboration and Internet Computing (CIC)
+AB  - Traditional malware detection techniques have focused on analyzing known malware samples' codes and behaviors to construct an effective database of malware signatures. In recent times, however, such techniques have inherently exposed limitations in detecting unknown malware samples and maintaining the database up-to-date, as many polymorphic and metamorphic malware samples are newly created and spread very quickly throughout the Internet. To address the limitations of existing signature-based malware scanners, we take a different view and focus on designing a novel malware detection framework, called MEDUSA (MalwarE Detection Using Statistical Analysis of system's behavior), for building a model for a system's behaviors with normal processes. Unlike traditional approaches for malware detection, MEDUSA has the potential to effectively detect unknown malware samples because it is designed to monitor a system's behavior and detect significant changes from the system's normal status. In this paper, we specifically discuss several important considerations that must be taken into account to successfully develop MEDUSA in practice.
+C3  - 2018 IEEE 4th International Conference on Collaboration and Internet Computing (CIC)
+DA  - 2018/10/18/
+PY  - 2018
+DO  - 10.1109/CIC.2018.00044
+SP  - 272
+EP  - 278
+KW  - Monitoring
+KW  - Semantics
+KW  - Tools
+KW  - Feature extraction
+KW  - Malware
+KW  - Virtual machining
+KW  - Rain
+KW  - malware detection, anomaly detection, system behavior, system profile, system artifacts
+ER  - 
+
+TY  - JOUR
+TI  - Domain Knowledge-Enhanced Process Mining for Anomaly Detection in Commercial Bank Business Processes
+AU  - Li, Y.
+AU  - Ni, Z.
+AU  - Xiao, B.
+T2  - Systems
+DA  - 2025///
+PY  - 2025
+DO  - 10.3390/systems13070545
+VL  - 13
+IS  - 7
+UR  - https://www.scopus.com/pages/publications/105011751460?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - An improved industrial control system device logs processing method for process-based anomaly detection
+AU  - Hussain, M.
+AU  - Foo, E.
+AU  - Suriadi, S.
+T2  - Proceedings - 2019 International Conference on Frontiers of Information Technology, FIT 2019
+DA  - 2019///
+PY  - 2019
+DO  - 10.1109/FIT47737.2019.00037
+SP  - 150
+EP  - 155
+UR  - https://www.scopus.com/pages/publications/85080121381?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Anomaly detection for industrial control systems using process mining
+AU  - Myers, D.
+AU  - Suriadi, S.
+AU  - Radke, K.
+AU  - Foo, E.
+T2  - Computers and Security
+DA  - 2018///
+PY  - 2018
+DO  - 10.1016/j.cose.2018.06.002
+VL  - 78
+SP  - 103
+EP  - 125
+UR  - https://www.scopus.com/pages/publications/85049593755?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Process mining on machine event logs for profiling abnormal behaviour and root cause analysis
+AU  - Maeyens, J.
+AU  - Vorstermans, A.
+AU  - Verbeke, M.
+T2  - Annales des Telecommunications/Annals of Telecommunications
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/s12243-020-00809-9
+VL  - 75
+IS  - 9-10
+SP  - 563
+EP  - 572
+UR  - https://www.scopus.com/pages/publications/85091087658?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Process mining and security: Detecting anomalous process executions and checking process conformance
+AU  - Van Der Aalst, W.M.P.
+AU  - De Medeiros, A.K.A.
+T2  - Electronic Notes in Theoretical Computer Science
+DA  - 2005///
+PY  - 2005
+DO  - 10.1016/j.entcs.2004.10.013
+VL  - 121
+IS  - SPEC. ISS.
+SP  - 3
+EP  - 21
+UR  - https://www.scopus.com/pages/publications/13544276885?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Detecting anomalies in DNS protocol traces via Passive Testing and Process Mining
+AU  - Saint-Pierre, C.
+AU  - Cifuentes, F.
+AU  - Bustos-Jimenez, J.
+T2  - 2014 IEEE Conference on Communications and Network Security, CNS 2014
+DA  - 2014///
+PY  - 2014
+DO  - 10.1109/CNS.2014.6997534
+SP  - 520
+EP  - 521
+UR  - https://www.scopus.com/pages/publications/84921444454?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Process aware host-based intrusion detection model
+AU  - Jalali, H.
+AU  - Baraani, A.
+T2  - International Journal of Communication Networks and Information Security
+DA  - 2012///
+PY  - 2012
+VL  - 4
+IS  - 2
+SP  - 117
+EP  - 124
+UR  - https://www.scopus.com/pages/publications/84865361779?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Fraud detection in process aware systems
+AU  - Bezerra, F.
+AU  - Wainer, J.
+T2  - International Journal of Business Process Integration and Management
+DA  - 2011///
+PY  - 2011
+DO  - 10.1504/IJBPIM.2011.040204
+VL  - 5
+IS  - 2
+SP  - 121
+EP  - 129
+UR  - https://www.scopus.com/pages/publications/79957451614?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Anomaly detection using process mining
+AU  - Bezerra, F.
+AU  - Wainer, J.
+AU  - Van Der Aalst, W.M.P.
+T2  - Lecture Notes in Business Information Processing
+DA  - 2009///
+PY  - 2009
+DO  - 10.1007/978-3-642-01862-6_13
+VL  - 29 LNBIP
+SP  - 149
+EP  - 161
+UR  - https://www.scopus.com/pages/publications/67249114883?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Genetic-based anomaly detection in logs of process aware systems
+AU  - Jalali, H.
+AU  - Baraani, A.
+T2  - World Academy of Science, Engineering and Technology
+DA  - 2010///
+PY  - 2010
+VL  - 64
+SP  - 304
+EP  - 309
+UR  - https://www.scopus.com/pages/publications/78651566206?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Process mining-driven modeling and simulation to enhance fault diagnosis in cyber–physical systems
+AU  - Vitale, F.
+AU  - Dall'Ora, N.
+AU  - Gaiardelli, S.
+AU  - Fraccaroli, E.
+AU  - Mazzocca, N.
+AU  - Fummi, F.
+T2  - Journal of Manufacturing Systems
+DA  - 2026///
+PY  - 2026
+DO  - 10.1016/j.jmsy.2025.12.005
+VL  - 84
+SP  - 189
+EP  - 206
+UR  - https://www.scopus.com/pages/publications/105024477258?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - A Reinforcement Learning Framework for Event Log Anomaly Detection and Repair
+AU  - Ko, J.
+AU  - Wynn, M.T.
+AU  - Comuzzi, M.
+AU  - Maggi, F.M.
+T2  - Proceedings - 2025 7th International Conference on Process Mining, ICPM 2025
+DA  - 2025///
+PY  - 2025
+DO  - 10.1109/ICPM66919.2025.11220719
+UR  - https://www.scopus.com/pages/publications/105024934291?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - LLM-LADE: Large language model-based log anomaly detection with explanation
+AU  - Zhang, Z.
+AU  - Li, S.
+AU  - Zhang, L.
+AU  - Ye, J.
+AU  - Hu, C.
+AU  - Yan, L.
+T2  - Knowledge-Based Systems
+DA  - 2025///
+PY  - 2025
+DO  - 10.1016/j.knosys.2025.114064
+VL  - 326
+UR  - https://www.scopus.com/pages/publications/105010301698?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Run-Time Monitoring of ERTMS/ETCS Control Flow by Process Mining
+AU  - Vitale, F.
+AU  - Zoppi, T.
+AU  - Flammini, F.
+AU  - Mazzocca, N.
+T2  - Lecture Notes in Computer Science
+DA  - 2026///
+PY  - 2026
+DO  - 10.1007/978-3-032-10762-6_15
+VL  - 16236 NCS
+SP  - 182
+EP  - 200
+UR  - https://www.scopus.com/pages/publications/105023156469?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Towards Context-Aware Log Anomaly Detection Using Fine-Tuned Large Language Models
+AU  - Breniaux, H.
+AU  - Mouheb, D.
+T2  - Lecture Notes in Computer Science
+DA  - 2026///
+PY  - 2026
+DO  - 10.1007/978-3-032-07884-1_5
+VL  - 16053 LNCS
+SP  - 83
+EP  - 102
+UR  - https://www.scopus.com/pages/publications/105020261844?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Large Language Model Framework for Log Sequence Anomaly Detection
+AU  - Reis, J.
+AU  - Areias, M.
+AU  - G. Barbosa, J.
+T2  - Lecture Notes in Computer Science
+DA  - 2026///
+PY  - 2026
+DO  - 10.1007/978-3-032-05176-9_25
+VL  - 16121 LNAI
+SP  - 324
+EP  - 334
+UR  - https://www.scopus.com/pages/publications/105016905193?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Anomaly Detection in Supply Chain Business Processes: A Deep Learning Approach
+AU  - Abu Musa, T.
+AU  - Bouras, A.
+AU  - Belhi, A.
+T2  - IFIP Advances in Information and Communication Technology
+DA  - 2025///
+PY  - 2025
+DO  - 10.1007/978-3-031-93323-3_3
+VL  - 741 IFIPAICT
+SP  - 26
+EP  - 40
+UR  - https://www.scopus.com/pages/publications/105011073445?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Control-flow anomaly detection by process mining-based feature extraction and dimensionality reduction
+AU  - Vitale, F.
+AU  - Pegoraro, M.
+AU  - van der Aalst, W.M.P.
+AU  - Mazzocca, N.
+T2  - Knowledge-Based Systems
+DA  - 2025///
+PY  - 2025
+DO  - 10.1016/j.knosys.2025.112970
+VL  - 310
+UR  - https://www.scopus.com/pages/publications/85215425643?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - ProM-Ex: An Explainable Framework for Anomaly Detection in Process Mining Using Large Language Models
+AU  - Tripathi, A.
+AU  - Jadhav, S.
+AU  - Singh, S.
+AU  - Nandan, S.K.
+AU  - Vyas, R.
+AU  - Vyas, O.P.
+T2  - 2024 IEEE 8th International Conference on Information and Communication Technology, CICT 2024
+DA  - 2024///
+PY  - 2024
+DO  - 10.1109/CICT64037.2024.10899435
+UR  - https://www.scopus.com/pages/publications/105000620088?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - NADA: NMF-Based Anomaly Detection in Adjacency-Matrices for Industrial Machine Log-Files
+AU  - Luftensteiner, S.
+AU  - Praher, P.
+AU  - Schwarz, N.
+T2  - Lecture Notes in Computer Science
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-3-031-68323-7_32
+VL  - 14912 LNCS
+SP  - 369
+EP  - 374
+UR  - https://www.scopus.com/pages/publications/85202153737?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Detecting Anomalous Events in Object-Centric Business Processes via Graph Neural Networks
+AU  - Niro, A.
+AU  - Werner, M.
+T2  - Lecture Notes in Business Information Processing
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-3-031-56107-8_14
+VL  - 503 LNBIP
+SP  - 179
+EP  - 190
+UR  - https://www.scopus.com/pages/publications/85192134866?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Process Mining Algorithm for Online Intrusion Detection System
+AU  - Zhong, Y.
+AU  - Goulermas, J.Y.
+AU  - Lisitsa, A.
+T2  - Communications in Computer and Information Science
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/978-3-031-50423-5_2
+VL  - 1559
+SP  - 15
+EP  - 25
+UR  - https://www.scopus.com/pages/publications/85181976180?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Event log anomaly detection method based on auto-encoder and control flow
+AU  - Kan, D.
+AU  - Fang, X.
+T2  - Multimedia Systems
+DA  - 2024///
+PY  - 2024
+DO  - 10.1007/s00530-023-01199-3
+VL  - 30
+IS  - 1
+UR  - https://www.scopus.com/pages/publications/85182718464?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Toward a Log-based Anomaly Detection System for Cyber Range Platforms
+AU  - Blefari, F.
+AU  - Pironti, F.A.
+AU  - Furfaro, A.
+T2  - ACM International Conference Proceeding Series
+DA  - 2024///
+PY  - 2024
+DO  - 10.1145/3664476.3669976
+UR  - https://www.scopus.com/pages/publications/85200326365?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Applying deep learning to detect abnormal event log traces: a non-rule-based framework
+AU  - Wang, Y.
+AU  - Chiu, T.
+AU  - Vasarhelyi, M.A.
+T2  - International Journal of Digital Accounting Research
+DA  - 2024///
+PY  - 2024
+DO  - 10.4192/1577-8517-v24_5
+VL  - 24
+SP  - 119
+EP  - 140
+UR  - https://www.scopus.com/pages/publications/85212712332?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - GAMA: A multi-graph-based anomaly detection framework for business processes via graph neural networks
+AU  - Guan, W.
+AU  - Cao, J.
+AU  - Gu, Y.
+AU  - Qian, S.
+T2  - Information Systems
+DA  - 2024///
+PY  - 2024
+DO  - 10.1016/j.is.2024.102405
+VL  - 124
+UR  - https://www.scopus.com/pages/publications/85193828311?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - A Multiperspective Fraud Detection Method for Multiparticipant E-Commerce Transactions
+AU  - Yu, W.
+AU  - Wang, Y.
+AU  - Liu, L.
+AU  - An, Y.
+AU  - Yuan, B.
+AU  - Panneerselvam, J.
+T2  - IEEE Transactions on Computational Social Systems
+AB  - Detection and prevention of fraudulent transactions in e-commerce platforms have always been the focus of transaction security systems. However, due to the concealment of e-commerce, it is not easy to capture attackers solely based on the historic order information. Many works try to develop technologies to prevent frauds, which have not considered the dynamic behaviors of users from multiple perspectives. This leads to an inefficient detection of fraudulent behaviors. To this end, this article proposes a novel fraud detection method that integrates machine learning and process mining models to monitor real-time user behaviors. First, we establish a process model concerning the business-to-customer (B2C) e-commerce platform, by incorporating the detection of user behaviors. Second, a method for analyzing abnormalities that can extract important features from event logs is presented. Then, we feed the extracted features to a support vector machine (SVM)-based classification model that can detect fraud behaviors. We demonstrate the effectiveness of our method in capturing dynamic fraudulent behaviors in e-commerce systems through the experiments.
+DA  - 2024///
+PY  - 2024
+DO  - 10.1109/TCSS.2022.3232619
+VL  - 11
+IS  - 2
+SP  - 1564
+EP  - 1576
+UR  - https://www.scopus.com/pages/publications/85147224941?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Deep reinforcement learning for data-efficient weakly supervised business process anomaly detection
+AU  - Elaziz, E.A.
+AU  - Fathalla, R.
+AU  - Shaheen, M.
+T2  - Journal of Big Data
+DA  - 2023///
+PY  - 2023
+DO  - 10.1186/s40537-023-00708-5
+VL  - 10
+IS  - 1
+UR  - https://www.scopus.com/pages/publications/85150178600?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - PMiner: Process Mining using Deep Autoencoder for Anomaly Detection and Reconstruction of Business Processes
+AU  - Chinnaiah, V.
+AU  - Veerabhadram, V.
+AU  - Aavula, R.
+AU  - Aluvala, S.
+T2  - International Journal of Electrical and Computer Engineering Systems
+DA  - 2024///
+PY  - 2024
+DO  - 10.32985/ijeces.15.6.7
+VL  - 15
+IS  - 6
+SP  - 531
+EP  - 542
+UR  - https://www.scopus.com/pages/publications/85196426044?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Catch Me If You Can: Online Classification for Near Real-Time Anomaly Detection in Business Process Event Streams
+AU  - Krajsic, P.
+AU  - Franczyk, B.
+T2  - Procedia Computer Science
+DA  - 2022///
+PY  - 2022
+DO  - 10.1016/j.procs.2022.09.056
+VL  - 207
+SP  - 235
+EP  - 244
+UR  - https://www.scopus.com/pages/publications/85143309266?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Online Anomaly Detection Using Statistical Leverage for Streaming Business Process Events
+AU  - Ko, J.
+AU  - Comuzzi, M.
+T2  - Lecture Notes in Business Information Processing
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-72693-5_15
+VL  - 406 LNBIP
+SP  - 193
+EP  - 205
+UR  - https://www.scopus.com/pages/publications/85107334702?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Variational Autoencoder for Anomaly Detection in Event Data in Online Process Mining
+AU  - Krajsic, P.
+AU  - Franczyk, B.
+T2  - International Conference on Enterprise Information Systems, ICEIS - Proceedings
+DA  - 2021///
+PY  - 2021
+DO  - 10.5220/0010375905670574
+VL  - 1
+SP  - 567
+EP  - 574
+UR  - https://www.scopus.com/pages/publications/85116875524?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - LSTM-Based Anomaly Detection of Process Instances: Benchmark and Tweaks
+AU  - Lahann, J.
+AU  - Pfeiffer, P.
+AU  - Fettke, P.
+T2  - Lecture Notes in Business Information Processing
+DA  - 2023///
+PY  - 2023
+DO  - 10.1007/978-3-031-27815-0_17
+VL  - 468 LNBIP
+SP  - 229
+EP  - 241
+UR  - https://www.scopus.com/pages/publications/85152581521?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Does This Make Sense? Machine Learning-Based Detection of Semantic Anomalies in Business Processes
+AU  - Caspary, J.
+AU  - Rebmann, A.
+AU  - van der Aa, H.
+T2  - Lecture Notes in Computer Science
+DA  - 2023///
+PY  - 2023
+DO  - 10.1007/978-3-031-41620-0_10
+VL  - 14159 LNCS
+SP  - 163
+EP  - 179
+UR  - https://www.scopus.com/pages/publications/85172194000?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - On the use of online clustering for anomaly detection in trace streams
+AU  - Neto, R.V.
+AU  - Tavares, G.M.
+AU  - Ceravolo, P.
+AU  - Barbon, S.
+T2  - ACM International Conference Proceeding Series
+DA  - 2021///
+PY  - 2021
+DO  - 10.1145/3466933.3466979
+UR  - https://www.scopus.com/pages/publications/85110315597?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Keeping our rivers clean: Information-theoretic online anomaly detection for streaming business process events
+AU  - Ko, J.
+AU  - Comuzzi, M.
+T2  - Information Systems
+DA  - 2022///
+PY  - 2022
+DO  - 10.1016/j.is.2021.101894
+VL  - 104
+UR  - https://www.scopus.com/pages/publications/85116026399?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - A Novel Transformer-Based Approach for Detecting Anomalies in Event Logs of Process-Aware Information Systems
+AU  - El-Aziz, E.A.
+AU  - Fathalla, R.
+AU  - Ismail, Y.
+AU  - Shaheen, M.
+T2  - 33rd International Conference on Computer Theory and Applications, ICCTA 2023
+DA  - 2023///
+PY  - 2023
+DO  - 10.1109/ICCTA60978.2023.10969284
+SP  - 29
+EP  - 34
+UR  - https://www.scopus.com/pages/publications/105004789516?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - BINet: Multi-perspective business process anomaly classification
+AU  - Nolle, T.
+AU  - Luettgen, S.
+AU  - Seeliger, A.
+AU  - Mühlhäuser, M.
+T2  - Information Systems
+DA  - 2022///
+PY  - 2022
+DO  - 10.1016/j.is.2019.101458
+VL  - 103
+UR  - https://www.scopus.com/pages/publications/85074478062?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - LogGPT: Exploring ChatGPT for Log-Based Anomaly Detection
+AU  - Qi, J.
+AU  - Huang, S.
+AU  - Luan, Z.
+AU  - Yang, S.
+AU  - Fung, C.
+AU  - Yang, H.
+AU  - Qian, D.
+AU  - Shang, J.
+AU  - Xiao, Z.
+AU  - Wu, Z.
+T2  - Proceedings - 2023 IEEE International Conference on High Performance Computing and Communications, Data Science and Systems, Smart City and Dependability in Sensor, Cloud and Big Data Systems and Application, HPCC/DSS/SmartCity/DependSys 2023
+DA  - 2023///
+PY  - 2023
+DO  - 10.1109/HPCC-DSS-SmartCity-DependSys60770.2023.00045
+SP  - 273
+EP  - 280
+UR  - https://www.scopus.com/pages/publications/85189864803?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - LogBERT: Log Anomaly Detection via BERT
+AU  - Guo, H.
+AU  - Yuan, S.
+AU  - Wu, X.
+T2  - Proceedings of the International Joint Conference on Neural Networks
+DA  - 2021///
+PY  - 2021
+DO  - 10.1109/IJCNN52387.2021.9534113
+VL  - 2021-July
+UR  - https://www.scopus.com/pages/publications/85116478248?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Anomaly detection in business processes logs using social network analysis
+AU  - Ebrahim, M.
+AU  - Golpayegani, S.A.H.
+T2  - Journal of Computer Virology and Hacking Techniques
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/s11416-021-00398-8
+VL  - 18
+IS  - 2
+SP  - 127
+EP  - 139
+UR  - https://www.scopus.com/pages/publications/85114139651?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Natural language-based detection of semantic execution anomalies in event logs
+AU  - van der Aa, H.
+AU  - Rebmann, A.
+AU  - Leopold, H.
+T2  - Information Systems
+DA  - 2021///
+PY  - 2021
+DO  - 10.1016/j.is.2021.101824
+VL  - 102
+UR  - https://www.scopus.com/pages/publications/85109517409?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Anomaly Detection for Service-Oriented Business Processes Using Conformance Analysis
+AU  - Tariq, Z.
+AU  - Charles, D.
+AU  - McClean, S.
+AU  - McChesney, I.
+AU  - Taylor, P.
+T2  - Algorithms
+DA  - 2022///
+PY  - 2022
+DO  - 10.3390/a15080257
+VL  - 15
+IS  - 8
+UR  - https://www.scopus.com/pages/publications/85137262377?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Process mining-based anomaly detection of additive manufacturing process activities using a game theory modeling approach
+AU  - Saraeian, S.
+AU  - Shirazi, B.
+T2  - Computers and Industrial Engineering
+DA  - 2020///
+PY  - 2020
+DO  - 10.1016/j.cie.2020.106584
+VL  - 146
+UR  - https://www.scopus.com/pages/publications/85086873314?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - DeepLog: Anomaly detection and diagnosis from system logs through deep learning
+AU  - Du, M.
+AU  - Li, F.
+AU  - Zheng, G.
+AU  - Srikumar, V.
+T2  - Proceedings of the ACM Conference on Computer and Communications Security
+DA  - 2017///
+PY  - 2017
+DO  - 10.1145/3133956.3134015
+SP  - 1285
+EP  - 1298
+UR  - https://www.scopus.com/pages/publications/85041449815?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Applying sequence mining for outlier detection in process mining
+AU  - Fani Sani, M.
+AU  - van Zelst, S.J.
+AU  - van der Aalst, W.M.P.
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+DA  - 2018///
+PY  - 2018
+DO  - 10.1007/978-3-030-02671-4_6
+VL  - 11230 LNCS
+SP  - 98
+EP  - 116
+UR  - https://www.scopus.com/pages/publications/85055933970?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Discovering process models for the analysis of application failures under uncertainty of event logs
+AU  - Pecchia, A.
+AU  - Weber, I.
+AU  - Cinque, M.
+AU  - Ma, Y.
+T2  - Knowledge-Based Systems
+DA  - 2020///
+PY  - 2020
+DO  - 10.1016/j.knosys.2019.105054
+VL  - 189
+UR  - https://www.scopus.com/pages/publications/85074434553?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Control-flow based anomaly detection in the bug-fixing process of open-source projects
+AU  - Saini, V.
+AU  - Singh, P.
+AU  - Sureka, A.
+T2  - ACM International Conference Proceeding Series
+DA  - 2020///
+PY  - 2020
+DO  - 10.1145/3385032.3385038
+UR  - https://www.scopus.com/pages/publications/85082701576?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Unsupervised learning methods for anomaly detection and log quality improvement using process event log
+AU  - Vijayakamal, M.
+AU  - Vasumathi, D.
+T2  - International Journal of Advanced Science and Technology
+DA  - 2020///
+PY  - 2020
+VL  - 29
+IS  - 1
+SP  - 1109
+EP  - 1125
+UR  - https://www.scopus.com/pages/publications/85080148022?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Process-based anomaly detection and analysis for cyber-physical system with MQTT protocol
+AU  - Ahmadon, M.A.B.
+AU  - Yamaguchi, S.
+T2  - Digest of Technical Papers - IEEE International Conference on Consumer Electronics
+DA  - 2020///
+PY  - 2020
+DO  - 10.1109/ICCE46568.2020.9043165
+VL  - 2020-January
+UR  - https://www.scopus.com/pages/publications/85082604278?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Analyzing business process anomalies using autoencoders
+AU  - Nolle, T.
+AU  - Luettgen, S.
+AU  - Seeliger, A.
+AU  - Mühlhäuser, M.
+T2  - Machine Learning
+DA  - 2018///
+PY  - 2018
+DO  - 10.1007/s10994-018-5702-8
+VL  - 107
+IS  - 11
+SP  - 1875
+EP  - 1893
+UR  - https://www.scopus.com/pages/publications/85046038114?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - JOUR
+TI  - Anomaly detection in business processes using process mining and fuzzy association rule learning
+AU  - Sarno, R.
+AU  - Sinaga, F.
+AU  - Sungkono, K.R.
+T2  - Journal of Big Data
+DA  - 2020///
+PY  - 2020
+DO  - 10.1186/s40537-019-0277-1
+VL  - 7
+IS  - 1
+UR  - https://www.scopus.com/pages/publications/85077536873?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - A practice-oriented, control-flow-based anomaly detection approach for internal process audits
+AU  - Schumann, G.
+AU  - Kruse, F.
+AU  - Nonnenmacher, J.
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+AB  - Internal auditing tries to identify anomalies, weaknesses and manipulations in business processes in order to protect the company from risks. Due to the digitalization of processes, auditors also have to check the associated data volumes. Already existing IT-systems focus on process-related data where the control flow, i.e. the actual sequence of process events, is not considered. This paper examines how the control flow and the process-related data can be analyzed in combination to support auditors in process auditing. To realize this, audit requirements were collected in the literature and evaluated by auditors from industry. On this basis, a concept with five indicators was developed, then transferred into a prototype and evaluated using real-life data as well as two auditors. The results show that the requirements can be technically realized and the developed indicators enable auditors to identify and interpret abnormal process executions.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/978-3-030-65310-1_39
+VL  - 12571 LNCS
+SP  - 533
+EP  - 543
+UR  - https://www.scopus.com/pages/publications/85098244197?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Abnormal process instances identification method in healthcare environment
+AU  - Han, B.
+AU  - Jiang, L.
+AU  - Cai, H.
+T2  - Proc. 10th IEEE Int. Conf. on Trust, Security and Privacy in Computing and Communications, TrustCom 2011, 8th IEEE Int. Conf. on Embedded Software and Systems, ICESS 2011, 6th Int. Conf. on FCST 2011
+AB  - In order to gain the competitive advantage, more and more hospitals put their attention on determining and optimizing the standard clinical pathway. However, there are many abnormal instances in the event logs which disturb the effect of the process mining and the process analysis. Also, the prescription and the medical test items may have a large difference in the specific disease, where has the similar clinical pathways due to the multi-factor in the clinical pathways. In this paper, an abnormal process instances identification method (APIIM) is proposed. Given the event logs and the standard clinical pathway, the method classifies the instances based on the classification attributes and identifies the abnormal instances by the outlier detection technology. Moreover, a case study using the real data in one hospital is implemented and the result shows that the method is effective and efficient in discovering the abnormal process instances in the healthcare environment.
+DA  - 2011///
+PY  - 2011
+DO  - 10.1109/TrustCom.2011.189
+SP  - 1387
+EP  - 1392
+UR  - https://www.scopus.com/pages/publications/84856197795?origin=resultslist
+DB  - Scopus
+N1  - <p>Export Date: 27 October 2026</p>
+ER  - 
+
+TY  - CONF
+TI  - Anomaly Detection of Object-Centric Event Logs Using Event Knowledge Graph
+AU  - O. O. Amin
+AU  - W. M. Abdelmoez
+AU  - M. Shaheen
+T2  - 2024 34th International Conference on Computer Theory and Applications (ICCTA)
+AB  - Process mining describes the technologies that use data to help businesses better understand their processes based on captured event logs extracted from information systems, relational databases, or business management software. To apply process mining techniques, event logs are used as input. Traditional process mining techniques associate each event with exactly one object, leading to convergence and divergence problems. Object-centric process mining (OCPM) takes a more extensive approach to process mining by considering many object types and events that involve multiple objects, increasing the data complexity and making it harder to detect anomalies. The event knowledge graph is powerful in visualizing complex relationships and interactions among entities in a graph-based structure. It helps organize data related to events where objects play a central role. It enables a better understanding of connections and patterns within object-centric event logs (OCELs). Detecting anomalies in an event knowledge graph involves identifying unusual patterns, behaviors, or relationships that deviate from expected norms. This paper proposes an approach for integrating OCEL into an event knowledge graph and utilizes graph-based techniques for anomaly detection. Our approach was evaluated on a synthetic event log in the logistics domain.
+C3  - 2024 34th International Conference on Computer Theory and Applications (ICCTA)
+DA  - 2024/12/14/
+PY  - 2024
+DO  - 10.1109/ICCTA64612.2024.10974779
+SP  - 349
+EP  - 355
+SN  - 2770-6575
+KW  - Anomaly detection
+KW  - Business
+KW  - Process mining
+KW  - Process Mining
+KW  - Logistics
+KW  - Information systems
+KW  - Software
+KW  - Anomaly-detection
+KW  - Convergence
+KW  - Data visualization
+KW  - Event Knowledge Graph
+KW  - Knowledge graphs
+KW  - Object-Centric Event Log
+KW  - Object-Centric Process Mining
+KW  - Relational databases
+ER  - 
+
+TY  - CONF
+TI  - Business activity monitoring solution to detect deviations in business process execution
+AU  - M. L. Sebu
+AU  - H. Ciocârlie
+T2  - 2015 IEEE 10th Jubilee International Symposium on Applied Computational Intelligence and Informatics
+AB  - Current paper proposes a custom solution for detecting deviations in process execution by analyzing event logs of running cases. The monitored business processes are extracted with process mining techniques. The behavior of the current alert system is illustrated on a case study, the event process logs resulted from the execution of a software development process used in the IT department of a large automotive company. Enhancing the level of control in project management activities, improving the business process execution by detecting deviations in real time and helping organizations to perform better by providing guidance to the people during task execution are the main reasons for designing the current solution. The statistical information about detected deviations represents the input for an analysis phase having as major scope business process improvements. The alert system was designed as a Web based application and is presented as a Business Activity Monitoring solution operating with process mining concepts.
+C3  - 2015 IEEE 10th Jubilee International Symposium on Applied Computational Intelligence and Informatics
+DA  - 2015/05/21/
+PY  - 2015
+DO  - 10.1109/SACI.2015.7208243
+SP  - 437
+EP  - 442
+KW  - process mining
+KW  - Monitoring
+KW  - Data mining
+KW  - Software
+KW  - Organizations
+KW  - business activity monitoring
+KW  - Computational intelligence
+KW  - operational support
+KW  - Project management
+ER  - 
+
+TY  - CONF
+TI  - Attention-Based Anomaly Detection in Hospital Process Event Data
+AU  - P. Krajsic
+AU  - B. Franczyk
+T2  - 2021 8th International Conference on Soft Computing & Machine Intelligence (ISCMI)
+AB  - The increasing complexity of processes makes it difficult to monitor them efficiently. This also includes the care paths in hospitals, whose process reliability is highly relevant, since unnoticed process deviations can have major consequences. For this purpose, a classification model based on self-attention is presented, which derives process logics from the underlying event data and allows to detect event-based anomalies in process flows without prior process knowledge. With an F1 score of 0.93, the model achieves a very good detection accuracy compared to other approaches which achieve F1 scores of 0.65 - 0.75 for classification tasks in similar domains. This can support process mining activities and makes the monitoring of hospital processes more reliable.
+C3  - 2021 8th International Conference on Soft Computing & Machine Intelligence (ISCMI)
+DA  - 2021/11/26/
+PY  - 2021
+DO  - 10.1109/ISCMI53840.2021.9654821
+SP  - 48
+EP  - 52
+SN  - 2640-0146
+KW  - anomaly detection
+KW  - Machine learning
+KW  - Real-time systems
+KW  - Data models
+KW  - event data
+KW  - Task analysis
+KW  - Hospitals
+KW  - Adaptation models
+KW  - Reliability
+KW  - attention
+KW  - classification
+KW  - hospital process
+ER  - 
+
+TY  - CONF
+TI  - Mining Pull Requests to Detect Process Anomalies in Open Source Software Development
+AU  - B. Liu
+AU  - H. Zhang
+AU  - W. Ma
+AU  - H. Kuang
+AU  - Y. Yang
+AU  - J. Xu
+AU  - S. Gao
+AU  - J. Gao
+T2  - 2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)
+AB  - Trustworthy Open Source Software (OSS) development processes are the basis that secures the long-term trustworthiness of soft-ware projects and products. With the aim to investigate the trust-worthiness of the Pull Request (PR) process, the common model of collaborative development in OSS community, we exploit process mining to identify and analyze the normal and anomalous patterns of PR processes, and propose our approach to identifying anomalies from both control-flow and semantic aspects, and then to analyze and synthesize the root causes of the identified anomalies. We analyze 17531 PRs of 18 OSS projects on GitHub, extracting 26 root causes of control-flow anomalies and 19 root causes of semantic anomalies. We find that most PRs can hardly contain both semantic anomalies and control-flow anomalies, and the internal custom rules in projects may be the key causes for the identified anomalous PRs. We further discover and analyze the patterns of normal PR processes. We find that PRs in the non-fork model (42%) are far more likely than the fork model (5%) to bypass the review process, indicating a higher potential risk. Besides, we analyzed nine poisoned projects whose PR practices were indeed worse. Given the complex and diverse PR processes in OSS community, the proposed approach can help identify and understand not only anomalous PRs but also normal PRs, which offers early risk indications of suspicious incidents (such as poisoning) to OSS supply chain.
+C3  - 2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)
+DA  - 2024/04/14/
+PY  - 2024
+DO  - 10.1145/3597503.3639196
+SP  - 2393
+EP  - 2405
+SN  - 1558-1225
+KW  - process mining
+KW  - Process control
+KW  - Analytical models
+KW  - Open source software
+KW  - Collaboration
+KW  - Semantics
+KW  - open source software development
+KW  - pull request
+KW  - Reviews
+KW  - Supply chains
+ER  - 
+
+TY  - CONF
+TI  - COMB: Interconnected Transformers-Based Autoencoder for Multi-Perspective Business Process Anomaly Detection
+AU  - W. Guan
+AU  - J. Cao
+AU  - Y. Yao
+AU  - Y. Gu
+AU  - S. Qian
+T2  - 2024 IEEE International Conference on Web Services (ICWS)
+AB  - In business processes, anomalies are prevalent, arising from diverse factors, such as software malfunctions and operator errors. Detecting these anomalies is imperative, as it significantly influences not only the financial well-being of a business but also the dependability of event logs for subsequent analysis. However, existing deep business process anomaly detection approaches either lack effective temporal dependency modeling between events or encounter challenges associated with gradient vanishing. In this paper, we introduce COMB, which stands for an interConnected transfOrmers-based autoencoder for Multi-perspective Business process anomaly detection. Considering the interdependent nature of multi-perspectives, COMB leverages multiple parallel and interconnected transformers, facilitated by the inclusion of aggregation layers. These layers serve as integration points for information from various perspectives. Notably, considering how control flow influences other perspectives, COMB incorporates innovative mask adapters to enhance its detection performance. Furthermore, we propose a novel method for calculating anomaly scores, which effectively mitigates the influence of varying numbers of potential attribute values. Our extensive experimental evaluation encompasses both synthetic and real-life logs, and the results clearly demonstrate that COMB outperforms state-of-the-art methods in both trace-level and attribute-level anomaly detection.
+C3  - 2024 IEEE International Conference on Web Services (ICWS)
+DA  - 2024/07/07/
+PY  - 2024
+DO  - 10.1109/ICWS62655.2024.00134
+SP  - 1115
+EP  - 1124
+SN  - 2836-3868
+KW  - anomaly detection
+KW  - Anomaly detection
+KW  - Business
+KW  - process mining
+KW  - Transformers
+KW  - Business process management
+KW  - deep learning
+KW  - Software
+KW  - Web services
+KW  - event log
+KW  - autoencoder
+ER  - 
+
+TY  - CONF
+TI  - Anomaly Detection on Event Logs with a Scarcity of Labels
+AU  - S. B. Junior
+AU  - P. Ceravolo
+AU  - E. Damiani
+AU  - N. J. Omori
+AU  - G. M. Tavares
+T2  - 2020 2nd International Conference on Process Mining (ICPM)
+AB  - Assuring anomaly-free business process executions is a key challenge for many organizations. Traditional techniques address this challenge using prior knowledge about anomalous cases that is seldom available in real-life. In this work, we propose the usage of word2vec encoding and One-Class Classification algorithms to detect anomalies by relying on normal behavior only. We investigated 6 different types of anomalies over 38 real and synthetics event logs, comparing the predictive performance of Support Vector Machine, One-Class Support Vector Machine, and Local Outlier Factor. Results show that our technique is viable for real-life scenarios, overcoming traditional machine learning for a wide variety of settings where only the normal behavior can be labeled.
+C3  - 2020 2nd International Conference on Process Mining (ICPM)
+DA  - 2020/10/05/
+PY  - 2020
+DO  - 10.1109/ICPM49681.2020.00032
+SP  - 161
+EP  - 168
+KW  - anomaly detection
+KW  - Anomaly detection
+KW  - Computational modeling
+KW  - Encoding
+KW  - Data models
+KW  - Analytical models
+KW  - One Class Classification
+KW  - Support vector machines
+KW  - Training
+KW  - encoding
+KW  - Local Outlier Factor
+KW  - Support Vector Machine
+ER  - 
+
+TY  - JOUR
+TI  - GRASPED: A GRU-AE Network Based Multi-Perspective Business Process Anomaly Detection Model
+AU  - W. Guan
+AU  - J. Cao
+AU  - Y. Gu
+AU  - S. Qian
+T2  - IEEE Transactions on Services Computing
+AB  - In process-aware information systems (PAISs), anomalies are ubiquitous, having a number of different underlying causes, such as software malfunctions or operator errors. The presence of anomalies not only has an enormous impact on the economic well-being of the business, but also interferes with our ability to mine useful information from event logs. In this article, we propose GRASPED, a GRU-AE Network based multi-perSpective business ProcEss anomaly Detection model. GRASPED can detect anomalies not only from the control flow but also from the data perspective of a business process. GRASPED is based on an autoencoder (AE) with gated recurrent units (GRU) which is trained in an unsupervised fashion (i.e., does not require any labeling of the data). In addition, GRASPED introduces the teacher forcing method as well as the attention mechanism to improve its detection performance. GRASPED does not require training on a clean log (i.e., it can be trained and perform anomaly detection directly on logs containing anomalies). We conduct extensive experiments on synthetic logs as well as real-life logs. The experiment results show that GRASPED outperforms the state-of-the-art methods for both trace-level and attribute-level anomaly detection.
+DA  - 2023/10//
+PY  - 2023
+DO  - 10.1109/TSC.2023.3262405
+VL  - 16
+IS  - 5
+SP  - 3412
+EP  - 3424
+J2  - IEEE Transactions on Services Computing
+SN  - 1939-1374
+KW  - Anomaly detection
+KW  - Business
+KW  - process mining
+KW  - deep learning
+KW  - Data models
+KW  - Process control
+KW  - business process management
+KW  - Hidden Markov models
+KW  - recurrent neural networks
+KW  - Logic gates
+KW  - Training
+ER  - 
+
+TY  - JOUR
+TI  - Business Process Anomaly Detection and Root Cause Analysis Using BLSTM-VAE With Attention
+AU  - E. A. El-Aziz
+AU  - R. Fathalla
+AU  - Y. Ismail
+AU  - M. Shaheen
+T2  - IEEE Access
+AB  - Detecting anomalous executions in business process data is crucial for safeguarding the efficiency and success of an organization. Unsupervised approaches are commonly used for business process anomaly detection because of the scarcity of labeled anomaly data. However, these approaches often encounter a notable decline in performance because they lack prior knowledge about the anomalies. Additionally, most of them do not perform root cause analysis on the detected anomalies. This study proposes a variational autoencoder-based approach to overcome the performance limitations of existing unsupervised methods and determine the root causes of the detected anomalies. The learning of the variational autoencoder from unlabeled business process data is enhanced in the proposed approach by leveraging different architectural components, namely, the entity embedding technique, the bidirectional long short-term memory network, and the self-attention mechanism. Combining these architectural components in the variational autoencoder architecture leads to learning high-level representations from the business process data and thus improving the reconstruction capability of the variational autoencoder. Furthermore, this study suggests feeding the reconstruction error provided by the variational autoencoder into the logistic regression classifier to improve the accuracy of anomaly detection. The performance of the proposed model was evaluated on real-life and synthetic datasets. The experimental findings indicate that the proposed model outperforms six existing anomaly detection models in terms of precision, recall, and F1-score metrics.
+DA  - 2024///
+PY  - 2024
+DO  - 10.1109/ACCESS.2024.3406633
+VL  - 12
+SP  - 101390
+EP  - 101406
+J2  - IEEE Access
+SN  - 2169-3536
+KW  - Anomaly detection
+KW  - Long short term memory
+KW  - Business process management
+KW  - self-attention
+KW  - Data models
+KW  - Information systems
+KW  - Analytical models
+KW  - business process
+KW  - bidirectional long short-term memory
+KW  - entity embedding
+KW  - logistic regression
+KW  - process-aware information systems
+KW  - root cause analysis
+KW  - Root cause analysis
+KW  - variational autoencoder
+ER  - 
+
+TY  - JOUR
+TI  - Automated Detection of Deviations in Bankruptcy Processes Using Process Mining
+AU  - I. P. Malashin
+AU  - I. S. Masich
+AU  - D. A. Ageev
+AU  - D. A. Evsyukov
+AU  - A. P. Gantimurov
+AU  - V. A. Nelyub
+AU  - A. S. Borodulin
+AU  - V. S. Tynchenko
+T2  - IEEE Access
+AB  - This study investigates the application of process mining (PM) techniques for the analysis of bankruptcy processes based on digital trace logs. The primary objective is to improve transparency, efficiency, and regulatory compliance within bankruptcy proceedings. An automated framework is proposed that addresses three key tasks: 1) the detection of deviations in process execution, 2) the identification of root causes behind these deviations, and 3) the verification of process conformance to predefined regulatory standards. Event logs are used to identify inefficiencies, bottlenecks, and instances of non-compliance with expected process flows, such as delays, irregularities, and resource misallocations. Root cause analysis is employed to pinpoint factors influencing process outcomes, while conformance checking ensures alignment with regulatory models. The framework is evaluated using real-world bankruptcy case data, demonstrating its capability to detect and analyze process inefficiencies.
+DA  - 2025///
+PY  - 2025
+DO  - 10.1109/ACCESS.2025.3558998
+VL  - 13
+SP  - 62103
+EP  - 62120
+J2  - IEEE Access
+SN  - 2169-3536
+KW  - Business
+KW  - Process mining
+KW  - Accuracy
+KW  - Long short term memory
+KW  - Encoding
+KW  - Predictive models
+KW  - Analytical models
+KW  - root cause analysis
+KW  - Root cause analysis
+KW  - conformance checking
+KW  - Vectors
+KW  - Bankruptcy
+KW  - bankruptcy process
+KW  - deviation detection
+KW  - Libraries
+ER  - 
+
+TY  - JOUR
+TI  - WAKE: A Weakly Supervised Business Process Anomaly Detection Framework via a Pre-Trained Autoencoder
+AU  - W. Guan
+AU  - J. Cao
+AU  - H. Zhao
+AU  - Y. Gu
+AU  - S. Qian
+T2  - IEEE Transactions on Knowledge and Data Engineering
+AB  - The ability to detect anomalies in business processes is crucial for achieving success in business operations. While unsupervised anomaly detection approaches have gained popularity in recent years due to their label-free nature, in some cases, a limited number of labelled anomalies can be provided and using them can improve the performance of anomaly detection. To address this issue, we propose a novel framework for anomaly detection that uses a pre-trained autoencoder to extract feature representations of traces. An anomaly score generator based on a multi-layer perceptron is utilized to evaluate the extracted features. The entire framework is trained using a joint loss that ensures the generated anomaly scores satisfy a specific distribution without compromising the autoencoder's ability to reconstruct normal traces. The feature encoder is fine-tuned to provide insights into the cause of anomalies. Additionally, we design a novel technique for calculating anomaly scores to mitigate the effects of varying numbers of potential attribute values. We conduct extensive experiments on both synthetic and real-life logs, and our results demonstrate that our proposed method, WAKE, outperforms state-of-the-art unsupervised deep business process anomaly detection methods by a significant margin. Additionally, it outperforms other weakly supervised anomaly detection methods as well.
+DA  - 2024/06//
+PY  - 2024
+DO  - 10.1109/TKDE.2023.3322411
+VL  - 36
+IS  - 6
+SP  - 2745
+EP  - 2758
+J2  - IEEE Transactions on Knowledge and Data Engineering
+SN  - 1558-2191
+KW  - Anomaly detection
+KW  - Business
+KW  - Process mining
+KW  - deep learning
+KW  - Data models
+KW  - Hidden Markov models
+KW  - Generators
+KW  - autoencoder
+KW  - Feature extraction
+KW  - Probabilistic logic
+KW  - recurrent neural networks
+KW  - weakly supervised anomaly detection
+ER  - 
+
+TY  - CONF
+TI  - PALM: A framework to identify novel attacks in an e-commerce system
+AU  - R. Kumar
+AU  - S. Pandey
+AU  - D. Das
+T2  - 2024 IEEE 29th Pacific Rim International Symposium on Dependable Computing (PRDC)
+AB  - The widespread adoption of e-commerce and its lucrative, decentralized, multi-agent nature have made these systems vulnerable to cyber-attacks. Traditional signature-based approaches have been successful in detecting instances of fraud, however, they continue to struggle against unknown attacks. To this end, we present PALM, a framework that bridges the data-oriented process mining community with model-based security engineering with an aim to detect novel cyber-exploit automatically from a given event-log. It relies on the insight that security attacks on digital infrastructures seek to modify the system behaviour inducing unsafe states. Consequently, we propose an approach to represent the behaviour of the system and establish a signature-based attack database that can be used to predict unseen exploits. Building on the success of process-mining community, our framework first discovers a Petri Net model automatically from an event-log using the "Inductive Miner (IM)" algorithm. Next we, explicitly map the system features onto the discovered Petri-Net. Subsequently, the Petri-Net model is trained over contextual attack signatures. This step is crucial for capturing the nuances of system dynamics and identifying potential vulnerabilities or attack surfaces that may be exploited by malicious actors. Graph Convolution Network is then employed to look for malicious feature correlations and information flows, indicating a likelihood of a link between unconnected neighbouring nodes. Using a sample event-log, we test the efficacy of our framework, achieving 83.33% accuracy and an AUC-ROC of 0.9186, signifying its potential in identifying novel attack paths.
+C3  - 2024 IEEE 29th Pacific Rim International Symposium on Dependable Computing (PRDC)
+DA  - 2024/11/13/
+PY  - 2024
+DO  - 10.1109/PRDC63035.2024.00027
+SP  - 143
+EP  - 152
+SN  - 2473-3105
+KW  - Process mining
+KW  - Accuracy
+KW  - Petri nets
+KW  - Prediction algorithms
+KW  - Threat modeling
+KW  - Attack graph
+KW  - Convolution
+KW  - Cyberattack
+KW  - E-commerce
+KW  - Electronic commerce
+KW  - Exploit prediction
+KW  - Graph Convolution Network
+KW  - Link prediction
+KW  - Novel attack detection
+KW  - System dynamics
+KW  - Training data
+ER  - 
+
+TY  - CONF
+TI  - A new method for occupational fraud detection in process aware information systems
+AU  - S. Mardani
+AU  - H. R. Shahriari
+T2  - 2013 10th International ISC Conference on Information Security and Cryptology (ISCISC)
+AB  - Today, companies have turned to use fraud detection methods to reduce their financial losses that have been arisen in this way. Thus, Process aware information systems are vulnerable to insider frauds. Flexibility in these systems gives the opportunity for fraudsters to commit illegal activities. Strict security controls on these systems at runtime reduces their flexibility. Moreover, the frequent changes in these systems make inefficient the ordinary fraud detection methods and it remains as a challenge for organizations. In this paper, we propose a new fraud detection method that uses both statistical information about system's log and process model mined from it to detect fraudulent instances. Our method reduces false positive rate and supports loop, parallel and selection structures in processes. The experimental results show effectiveness of the approach as it represents value of more than 0.8 for F-measure.
+C3  - 2013 10th International ISC Conference on Information Security and Cryptology (ISCISC)
+DA  - 2013/08/29/
+PY  - 2013
+DO  - 10.1109/ISCISC.2013.6767348
+SP  - 1
+EP  - 5
+KW  - anomaly detection
+KW  - process mining
+KW  - Companies
+KW  - Information systems
+KW  - Process control
+KW  - Security
+KW  - outlier detection
+KW  - Vectors
+KW  - Classification algorithms
+KW  - fraud detection
+KW  - process aware information systems
+ER  - 
+
+TY  - CONF
+TI  - Analysing Business Process Anomalies Using Discrete-time Markov chains
+AU  - L. Yang
+AU  - S. McClean
+AU  - M. Donnelly
+AU  - K. Khan
+AU  - K. Burke
+T2  - 2020 IEEE 22nd International Conference on High Performance Computing and Communications; IEEE 18th International Conference on Smart City; IEEE 6th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+AB  - Within a business context, anomalies can be viewed as indicators for inefficiencies or fraud, which impact upon product quality and customer satisfaction. The development of approaches to monitor, detect and predict anomalous business processes remains an important research topic. In this paper, we propose a method, combining Discrete-time Markov chains (DTMCs) and hitting probabilities (HP), for detecting anomalies occurring in the execution of business processes. Our method extends standard DTMCs to be able to estimate the probability of occurring for a process instance even though it is partially recorded (i.e., the initial executions are missing). The proposed method, denoted as HPDTMC, does not rely on prior knowledge about anomalies and the business process and can be trained on datasets already consisting of anomalies. A řidák correction is applied to balance the probability of instances of varying length since naturally, process instances with more executions have lower sequence probability and more likely to be detected as anomalies by using DTMCs. We demonstrate the effectiveness of the method by evaluating it on two artificial datasets and one real-life dataset against seven classic anomaly detection methods. In the experiments, our approach reached an F1 score of 0.904 on average. Moreover, the proposed method outperforms competitors under noisy conditions. The main contribution of this paper is the proposed noise-robust method which is able to detect fully or partially recorded process instances of varying lengths.
+C3  - 2020 IEEE 22nd International Conference on High Performance Computing and Communications; IEEE 18th International Conference on Smart City; IEEE 6th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+DA  - 2020/12/14/
+PY  - 2020
+DO  - 10.1109/HPCC-SmartCity-DSS50907.2020.00163
+SP  - 1258
+EP  - 1265
+KW  - Markov processes
+KW  - Telecommunications
+KW  - Simulation
+KW  - Noise measurement
+KW  - Discrete-time Markov chains
+KW  - Hitting probability
+KW  - IPTV
+KW  - Noise robustness
+KW  - Process anomaly detection
+KW  - Quality assessment
+KW  - Šidák correction
+ER  - 
+
+TY  - CONF
+TI  - Graph-based Method for Detecting Fraud Regarding Activity Relationships in Business Process Models
+AU  - I. N. Gde Artadana Mahaputra Wardhiana
+AU  - R. Nur Esti Anggraini
+AU  - K. R. Sungkono
+T2  - 2025 International Conference on Data Science and Its Applications (ICoDSA)
+AB  - Process-Based Fraud (PBF) poses a threat to organizational integrity, resulting from deviations in the execution of business processes compared to established standard operating procedures (SOPs). Unlike transactional fraud, which targets financial discrepancies, PBF focuses on control-flow inconsistencies that may lead to unauthorized actions, policy violations, or operational inefficiencies. This study proposes a novel graph-based architecture for PBF detection using Neo4j, integrating three distinct graph-based methods: two similarity-based methods using Jaccard similarity and Levenshtein distance, and one logic-based method using PBF-type-specific rules. Embedded within a graph-native environment, this approach enables the detection of several underexplored PBF types, including skipped activities, wrong patterns, and wrong decisions. An experimental evaluation of 1,000 cases reveals that the graph-based method with Levenshtein distance achieves the best performance in detecting incorrect patterns, achieving perfect performance with an F1-score of 1.00. For wrong decision detection, the graph-based method with rule-based logic attained an F1-score of 1.00. In identifying skipped activities, both graph-based methods, using Jaccard and Levenshtein, achieved F1-scores of 0.98 at a similarity threshold of 1.0. These outcomes demonstrate that the proposed graph-based approach provides an effective solution for accurately detecting various types of process-based fraud in business process models.
+C3  - 2025 International Conference on Data Science and Its Applications (ICoDSA)
+DA  - 2025/07/03/
+PY  - 2025
+DO  - 10.1109/ICoDSA67155.2025.11157612
+SP  - 1112
+EP  - 1117
+KW  - Computational modeling
+KW  - Computer architecture
+KW  - Organizations
+KW  - Probabilistic logic
+KW  - Sensitivity
+KW  - Standards
+KW  - Data science
+KW  - Throughput
+KW  - Fraud
+KW  - Robustness
+KW  - fraud detection
+KW  - graph
+KW  - jaccard similarity
+KW  - levenshtein distance
+KW  - process-based fraud
+ER  - 
+
+TY  - JOUR
+TI  - Digital Twins for Anomaly Detection in the Industrial Internet of Things: Conceptual Architecture and Proof-of-Concept
+AU  - A. De Benedictis
+AU  - F. Flammini
+AU  - N. Mazzocca
+AU  - A. Somma
+AU  - F. Vitale
+T2  - IEEE Transactions on Industrial Informatics
+AB  - Modern cyber-physical systems based on the industrial Internet of Things (IIoT) can be highly distributed and heterogeneous, and that increases the risk of failures due to misbehavior of interconnected components, or other interaction anomalies. In this article, we introduce a conceptual architecture for IIoT anomaly detection based on the paradigms of digital twins (DT) and autonomic computing (AC), and we test it through a proof-of-concept of industrial relevance. The architecture is derived from the current state-of-the-art in DT research and leverages on the MAPE-K feedback loop of AC in order to monitor, analyze, plan, and execute appropriate reconfiguration or mitigation strategies based on the detected deviation from prescriptive behavior stored as shared knowledge. We demonstrate the approach and discuss results by using a reference operational scenario of adequate complexity and criticality within the European Railway Traffic Management System.
+DA  - 2023/12//
+PY  - 2023
+DO  - 10.1109/TII.2023.3246983
+VL  - 19
+IS  - 12
+SP  - 11553
+EP  - 11563
+J2  - IEEE Transactions on Industrial Informatics
+SN  - 1941-0050
+KW  - Anomaly detection
+KW  - Monitoring
+KW  - Computer architecture
+KW  - Data models
+KW  - Behavioral sciences
+KW  - Digital twins
+KW  - process mining (PM)
+KW  - autonomic computing (AC)
+KW  - cyber-physical systems
+KW  - digital twins (DTs)
+KW  - Industrial Internet of Things
+KW  - industrial Internet of Things (IIoT)
+ER  - 
+
+TY  - JOUR
+TI  - Comparative Assessment of Process Mining for Supporting IoT Predictive Security
+AU  - A. Hemmer
+AU  - M. Abderrahim
+AU  - R. Badonnel
+AU  - J. François
+AU  - I. Chrisment
+T2  - IEEE Transactions on Network and Service Management
+AB  - The growth of the Internet-of-Things (IoT) has been characterized by the large-scale deployment of sensors and connected objects. These ones are integrated with other Internet resources in order to elaborate more complex systems and applications. Security management is a major challenge for these systems due to their complexity, their heterogeneity and the limited resources of their devices. In this article we evaluate the exploitability and performance of a process mining approach for detecting misbehaviors in such systems. We describe the considered architecture and detail its operation, from the generation of behavioral models to the detection of potential attacks. We formalize several alternative commonly-used detection methods, including elliptic envelope, support-vector machine, local outlier factor, and isolation forest techniques. After presenting a proof-of-concept prototype, we quantify comparatively the benefits and limits of our process mining solution combined with data pre-processing, through extensive experiments based on different industrial datasets.
+DA  - 2021/03//
+PY  - 2021
+DO  - 10.1109/TNSM.2020.3038172
+VL  - 18
+IS  - 1
+SP  - 1092
+EP  - 1103
+J2  - IEEE Transactions on Network and Service Management
+SN  - 1932-4537
+KW  - machine learning
+KW  - process mining
+KW  - Data models
+KW  - Data mining
+KW  - Random forests
+KW  - Hidden Markov models
+KW  - Security
+KW  - data mining
+KW  - Buildings
+KW  - Decision trees
+KW  - Internet-of-Things
+KW  - Security management
+ER  - 
+
